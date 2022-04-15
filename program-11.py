@@ -1,4 +1,4 @@
-## Using type functions for checking data type-
+# Using 'type' function for checking data type-
 
 w="fahim"
 x=20

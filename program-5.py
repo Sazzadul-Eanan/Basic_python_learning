@@ -1,4 +1,4 @@
-## Operations using variables-
+# Mathematical operations using variable-
 
 a=11
 b=4

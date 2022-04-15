@@ -1,4 +1,4 @@
-## Data type = string
+# Input Data type = string
 
 '''
 num1= input("Enter first number : ")
@@ -7,15 +7,15 @@ sum= num1+num2
 print(sum)
 '''
 
-## converting string to integer-
+# Converting string to integer-
 
 '''
 num1= input("Enter first number : ")
 num2= input("Enter second number : ")
-sum= int(num1)+int(num2)
+sum= int(num1)+int(num2)               # 'Int' is a function used for converting any other numerical expressions like decimal into 'integer'
 print(sum)
 '''
-## converting string to float / decimal-
+# Converting string to float or, decimal-
 
 num1= input("Enter first number : ")
 num2= input("Enter second number : ")

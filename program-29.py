@@ -1,4 +1,4 @@
-# Printing the 'even numbers (upto 100)' using while loop-
+# Printing the 'even numbers (up to 100)' using while loop-
 
 i = 2
 

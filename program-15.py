@@ -3,7 +3,8 @@
 mark = 88
 
 if mark >= 33 :
-     print("pass")
+     print( "Pass" )
+
 else:
-     print("fail")
+     print( "Fail" )
 

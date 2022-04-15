@@ -1,6 +1,9 @@
-# Using 'while-loop' for printing numbers-
+# Use of 'while-loop' for printing consecutive numbers
 
-i = 1             # Initialization
-while i <= 20 :   # Conditions
+
+                     # Three compulsory components of a 'while-loop'-
+
+i = 1                # Initialization
+while i <= 20 :      # Conditions
     print(i)
-    i = i + 1     # Update
+    i = i + 1        # Update

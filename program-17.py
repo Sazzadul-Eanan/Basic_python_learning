@@ -1,5 +1,7 @@
 # elif statement-
-# remember in 'elif' statement, if any of the conditions works, then rest of the conditions will not be checked by the program
+
+# Remember in 'elif' statement, if any of the conditions above 'elif' works, then rest of the conditions below that 'elif' will not work
+
 marks = 70
 
 if marks >= 80 :

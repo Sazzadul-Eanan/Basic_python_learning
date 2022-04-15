@@ -1,4 +1,4 @@
-# Using 'while-loop' for printing strings-
+# Use of 'while-loop' for printing repeatable strings-
 
 i = 1
 while i <= 5 :
