@@ -8,3 +8,17 @@ if mark >= 33 :
 else:
      print( "Fail" )
 
+'''     
+# Take user input for 'if else' statement 
+     
+mark = int(input("Enter your obtained marks :- "))     # int for integer conversion of the "string"
+
+if mark >= 33:
+     
+     print("The result is : Pass")
+
+else:
+          
+     print("The result is : Fail")
+'''
+
