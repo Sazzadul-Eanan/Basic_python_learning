@@ -1,2 +1,2 @@
 # Basic_python_learning
-Python_Basics
+Fundamental_coding_for_beginners_in_python
