@@ -1,11 +1,11 @@
 # Use of 'and' logical operator inside 'if statement'
 
-# THE LOGICAL OPERATORS ARE 'and', 'or', 'not'
+# THE THREE LOGICAL OPERATORS ARE 'and', 'or', 'not'
 
 # Finding the 'biggest number'
 
 num1 = 50
-num2 = 10
+num2 = 30
 num3 = 90
 
 if num1 > num2 and num1 > num3 :   # 'and' adds two 'if condition' here, for better understanding see 'program-21' again

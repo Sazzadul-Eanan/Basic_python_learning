@@ -14,7 +14,7 @@ if num1 > num2 :
 
        print(num3)
 
-if num2 > num1 :         # Or, use only ' else : ' statement here
+if num2 > num1 :
 
     if num2 > num3 :
 

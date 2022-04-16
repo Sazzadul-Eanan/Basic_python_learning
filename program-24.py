@@ -1,4 +1,4 @@
-# Use of 'or' logical operator inside 'if statement
+# Use of 'or' logical operator inside 'if statement'
 
   # Finding the vowel or consonant
 
