@@ -4,6 +4,8 @@
 
 print(389)             # Coding in python is 'case sensitive', means the typing of the function 'print' should be started with small 'p' not capital 'p'
 
+print(70 + 20 + 10)
+
 print("Hello World")   # In case of string, use single or, double quotation marks (" ") inside the print function
 
 x = 450
