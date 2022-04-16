@@ -8,3 +8,5 @@ print("Our new student's name is " +name)     # To add string variable use 'plus
 print(name+  " lives in Dhaka")
 print("He is currently" , age , "years old")  # But to add numerical variables use two comma (, ,) on the both side of the 'numeric' value
 print(name+  " has scored" , cgpa , "in B.Sc. Honors" )
+
+# Notice that the variables are kept outside the 'quotation marks' always.
