@@ -1,9 +1,9 @@
 # Even Or Odd
 
-x = 5
+x = 7
 
-if x % 2 == 0 :          # Even numbers are divisible by 2
-    print( "Even" )
+if x % 2 == 0 :                     # Even numbers are divisible by 2
+    print( "The number is Even." )
 
 else :
-    print( "Odd" )
+    print( "The number is Odd." )
