@@ -1,5 +1,7 @@
 # Relational operators and boolean data type-
 
+     # There are two boolean expressions - 'True' and 'False'
+
 # (Comparison by relational operators gives boolean expressions)
 
 print(30>20)    # greater than
