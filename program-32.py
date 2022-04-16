@@ -1,6 +1,6 @@
 # Finding the sum of a sequence ( 2, 4, 6....n ) using 'while-loop' and 'input' from the user
 
-n = int(input('Enter the last term : '))       # 'int' for integer
+n = int(input('Enter the last term :- '))
 
 sum = 0
 i = 2

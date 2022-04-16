@@ -1,7 +1,7 @@
 # Finding the sum of 'n' numbers using 'while-loop' and 'input' from the user
 
 
-n = int(input('Enter the last term : '))      # 'int' is for integer conversion of input 'numerical values'
+n = int(input('Enter the last term :- '))      # 'int' is for integer conversion of input 'numerical values as string'
 
 sum = 0
 i = 1
