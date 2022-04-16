@@ -1,8 +1,8 @@
 # Using 'string' and 'numerical' variables in a repeatable statements-
 
-name="Rohit"
-age=25
-cgpa=3.68
+name = "Rohit"
+age = 25
+cgpa = 3.68
 
 print("Our new student's name is " +name)     # To add string variable use 'plus sign'
 print(name+  " lives in Dhaka")
