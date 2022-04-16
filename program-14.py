@@ -5,7 +5,7 @@
 x = 100
 y = 50
 
-if x > y :         # the condition should be inside the clon sign ( : )
+if x > y :         # the condition should be inside the colon sign ( : )
     print("x")
 
 else :
