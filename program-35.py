@@ -1,7 +1,7 @@
 # LIST []
 # It is an 'object' of python where so many 'items' can be stored
 
-list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']
+list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']     # use 'square bracket' while creating list
 
 print(list1)            # print the list
 print(list1[0])         # print the first item (list index value starts from '0' in a list) of the list
