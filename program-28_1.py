@@ -11,5 +11,5 @@ while i <= 5 :
 i = 1
 while i <= 5 :
     print('FAHIM')
-    i = i + 1
+    i = i + 1        # this line can also be written as 'i += 1'
 '''

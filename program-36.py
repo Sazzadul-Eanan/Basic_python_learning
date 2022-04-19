@@ -22,6 +22,10 @@ list1.pop()             # pop will remove the very last item of the list
 print(list1)
 '''
 '''
+list1.pop(3)             # pop will remove the 'index value' assigned item from the list
+print(list1)
+'''
+'''
 list1.clear()           # to clear all the items of the list
 print(list1)
 '''
