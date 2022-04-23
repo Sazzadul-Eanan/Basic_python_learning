@@ -1,4 +1,4 @@
-# Opening a .txt file into a python file
+# Opening a .txt file into a python file and read
 
 # create a 'Fahim.txt' file before at hand to open
 
