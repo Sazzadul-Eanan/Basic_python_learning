@@ -1,5 +1,6 @@
 # Use of 'while-loop' for printing consecutive numbers
 
+# print all the numbers from 1 to 20
 
                      # Three compulsory components of a 'while-loop'-
 

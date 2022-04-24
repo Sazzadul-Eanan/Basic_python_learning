@@ -1,5 +1,7 @@
 # elif statement-
 
+# elif statement commands the program to try another condition if the previous one is not true
+
 # Remember in 'elif' statement, if any of the conditions above 'elif' works, then rest of the conditions below that 'elif' will not work
 
 marks = 65
