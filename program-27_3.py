@@ -1,6 +1,11 @@
-# Print all the output in a single horizontal line
+# Continue - this allows you to skip over part of a loop’s iteration for a particular value, but then to continue with the remaining values in the sequence.
 
-count = 0
-while count < 10 :
- print(count, ' ', end='')    # the end=' ' is used to place a space after the 'displayed string' instead of a newline
- count = count + 1
+
+# For-loop : continue
+
+
+for x in range (1 , 6) :
+
+    if x == 4 :                    # skip over 4
+        continue
+    print(x)
