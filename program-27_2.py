@@ -1,5 +1,7 @@
 # Use of 'while-loop' and 'break' for printing consecutive numbers
 
+# 'break' can't work without 'if condition'
+
 # the break statement, when executed, will terminate the current loop and jump the program to the first line after the loop.
 
 # 'break' the operation at middle-point while printing all the numbers from 1 up to 8

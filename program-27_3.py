@@ -1,5 +1,6 @@
 # Continue - this allows you to skip over part of a loop’s iteration for a particular value, but then to continue with the remaining values in the sequence.
 
+# 'continue' can't work without 'if condition'
 
 # For-loop : continue
 
