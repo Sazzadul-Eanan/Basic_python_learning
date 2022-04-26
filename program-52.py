@@ -7,5 +7,5 @@ books.append('Write')
 books.append('Speak')
 # print(books)
 
-books.pop()               # pop item from the stack
+books.pop()               # remove item from the stack
 print(books)              # notice the LIFO action into the 'output'

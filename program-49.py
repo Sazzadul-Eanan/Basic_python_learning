@@ -7,6 +7,7 @@ studentID = {          # in dictionary use 'curly' bracket
     102 : 'Yuvraj',
     103 : 'Shehwag'
 }
-# print(studentID[102])     # Use 'square' bracket
+
+print(studentID[102])     # Use 'square' bracket
 
 print(studentID.get(105,"Not a valid key"))

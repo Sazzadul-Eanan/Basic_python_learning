@@ -22,7 +22,7 @@ print(list3)
 '''
 # list4 = [38, 45, 76, 38, 99, 38, 71, 38, 46, 38]
 '''
-x = list4.count(38)     # to count the frequency of a definite number in a list
+x = list4.count(38)     # to count the frequency of a definite item in a list
 print(x)                # x is nothing but a variable here
 '''
 '''
