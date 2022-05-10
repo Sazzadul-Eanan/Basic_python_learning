@@ -14,7 +14,7 @@ while i <= 5 :        # in a 'while loop' the iteration starts from the value as
 '''
 for i in range(1, 6) :      # in 'for loop' the range-iteration always increase 1 by 1, up to 'n-1' (where n = range)
     print(i)                # in 'for loop' number of iterations is known
-                            # 'range' is actually a function that generates the range of values to be used as the sequence in the 'for loop'
+                            # 'range' is actually a function that generates the range of values to be used as the sequence of the 'for loop'
                             # No need to define the loop variable first.
                             # the code is more concise
 '''
