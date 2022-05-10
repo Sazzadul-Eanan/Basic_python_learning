@@ -12,7 +12,7 @@ print(sum)
 '''
 num1= input("Enter first number : ")
 num2= input("Enter second number : ")
-sum= int(num1)+int(num2)               # 'Int' is a function for converting any other numerical expressions like float (37.45) into 'integer'
+sum= int(num1)+int(num2)               # 'Int' is a function for converting any other numerical expressions like decimal (float) into 'integer'
 print(sum)
 '''
 # Converting string to float or, decimal-
