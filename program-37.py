@@ -5,11 +5,11 @@
 # list2 = [100, 40, 40, 10, 65]
 
 '''
-list1.sort()      # to sort the 'list1' alphabetically
+list1.sort()      # to sort the 'list1' alphabetically      # this function is applicable only when all the items of a list are of simillar data type
 print(list1)
 '''
 '''
-list1.reverse()   # to just reverse the position of 'list1' without alphabetic order
+list1.reverse()   # to reverse the position of the items of 'list1' based on index value order
 print(list1)
 '''
 '''
@@ -26,7 +26,6 @@ x = list4.count(38)     # to count the frequency of a definite item in a list
 print(x)                # x is nothing but a variable here
 '''
 '''
-x = list2.extend(list4)     # to add list4 at the 'end' of list2
-print(x)
+list2.extend(list4)     # to extend list2 with all the items of list4 at the end 
+print(list2)
 '''
-

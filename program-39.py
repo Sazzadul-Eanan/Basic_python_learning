@@ -10,6 +10,7 @@ while i <= 4 :        # here 4 is the highest 'index value'
     print(list [i])
     i = i + 1
 '''
+
 # But to apply 'for loop' here, the idea of 'index value' is not necessary
 
 for x in list :       # 'x' is a variable
