@@ -7,3 +7,12 @@ while i <= 5 :       # here  n = 5
     sum = sum + i    # Define how the variable 'sum' will be working
     i = i + 1
 print (sum)
+
+
+
+# Finding the sum of 'n' numbers using 'for loop'
+
+sum = 0
+for x in range (6) :
+    sum = sum + x
+print(sum)

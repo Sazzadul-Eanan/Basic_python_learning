@@ -9,3 +9,16 @@ while i <= n :          # 'n' is the last term of the sequence up to which all t
     sum = sum + i
     i = i + 1
 print(sum)
+
+
+
+
+# Finding the sum of 'n' numbers using 'for-loop' and 'input' from the user
+
+
+n = int(input('Enter the last term :- '))
+
+sum = 0
+for i in range(n+1) :
+    sum = sum + i
+print(sum)
