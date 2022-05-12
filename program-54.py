@@ -6,7 +6,7 @@ books.append('Read')
 books.append('Write')
 books.append('Speak')
 
-# print(books)
+print(books)
                     # pop!
 
 books.pop()         # 1st

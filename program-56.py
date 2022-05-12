@@ -3,7 +3,8 @@
 from collections import deque
 
 manline = deque(['Tushar', 'Pobel', 'Ridoy'])
-# print(manline)
+
+print(manline)
 
 manline.popleft()
 manline.popleft()

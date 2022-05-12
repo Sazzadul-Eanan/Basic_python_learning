@@ -20,7 +20,7 @@ s1.remove(2)         # remove item from a set
 print(s1)
 '''
 '''
-s1 = 1, 2, 3, 4
-s2 = set(s1)         # conversion from other data structure to 'set' using set function
-print(s2)
+s2 = [100, 200, 300, 400]        # here s2 is a list
+s3 = set(s2)         # conversion from other data structure to 'set' using set function
+print(s3)
 '''
