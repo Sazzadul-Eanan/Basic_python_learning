@@ -29,3 +29,7 @@ print(x)                # x is nothing but a variable here
 list2.extend(list4)     # to extend list2 with all the items of list4 at the end 
 print(list2)
 '''
+
+tup = (5, 7, 'Ross', 8, 4, 'Phoebe')       # other collection type to 'list' conversion
+lis = list(tup)
+print(lis)

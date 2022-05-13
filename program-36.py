@@ -10,6 +10,10 @@ list1.append("ABU")     # add new item into the 'last position' of the list
 print(list1)
 '''
 '''
+list1 = list1 + ["ABU", "SHUVO"]
+print(list1)
+'''
+'''
 list1.insert(2,"ABU")   # add new item into a very specific position of the list
 print(list1)
 '''
@@ -23,6 +27,10 @@ print(list1)
 '''
 '''
 list1.pop(3)            # pop will remove the 'index value' assigned item from the list
+print(list1)
+'''
+'''
+del list1[2]            # to delete the item indexed at '2'
 print(list1)
 '''
 '''

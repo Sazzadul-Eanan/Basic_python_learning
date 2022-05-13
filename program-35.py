@@ -1,5 +1,7 @@
 # LIST []
-# It is an 'object' of python where so many 'items' can be stored
+
+# List are mutable
+
 
 list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']     # use 'square bracket' while creating list
 
@@ -12,3 +14,13 @@ print(list1 + [800])    # add new item into the last position of the list
 print(list1*2)          # amplify the item's frequency of the list
 
 # list 'index value' for the first entry of the list 'ADIL' is equal to '0', 'RABBI' is equal to '1', '300' is equal to '2'....
+
+
+# Nested Lists
+
+list_a = [1, 43.5, ('Phoebe', 68), True]
+list_b = ['apple', 'orange', 31]
+
+nes_list = ['John', list_a, list_b, 'Denise']
+
+print(nes_list)
