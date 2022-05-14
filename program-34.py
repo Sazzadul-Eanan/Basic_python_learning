@@ -1,6 +1,6 @@
 # There are four classes in Python that provide container like behaviour; that is data types for holding collections of other objects, these are - Tuples,  Lists,  Sets,  Dictionary
 
-# Tuple ( )
+# TUPLE ( )
 
 # It is not possible to add or remove elements from a Tuple; they are immutable.
 
