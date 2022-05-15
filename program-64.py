@@ -1,5 +1,5 @@
 # XX-arguments
-# use key to print expected 'value'
+# use the key to print expected 'value'
 
 def student(**details) :
     print(details ['name'])

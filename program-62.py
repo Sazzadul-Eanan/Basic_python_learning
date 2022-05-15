@@ -1,4 +1,4 @@
-# Program for adding numbers using X-arguments
+# Program for adding numbers using X-arguments of function
 
 def add(*numbers) :
     sum = 0
