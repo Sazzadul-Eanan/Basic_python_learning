@@ -9,7 +9,7 @@ def greater (x,y) :
 print(greater(75 , 750))
 
 '''
-ans = greater (75 ,750)       # 'ans' is the variable where the answer is return
+ans = greater (75 ,750)       # 'ans' is the variable where the answer is returned
 
 print('The greater number is :  ', ans)
 '''
