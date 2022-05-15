@@ -1,5 +1,5 @@
 # Filter function can filter out items, based on some 'conditions' assigned on an iterable
-# Filter function works with iterable object specially 'list'
+# Filter function always works with iterable object specially 'list'
 # the condition-unmatched 'items' will be removed
 
 
