@@ -14,7 +14,7 @@ calculate(3,5)
 
 # the above one is a normal function, but the following is a 'lambda' version of it
 
-   # lambda    parameter    :    executable statement                    # format of a lambda function
+   # (lambda    parameter    :    executable statement)       (call)               # format of a lambda function
 
 x = (lambda   a,b   :   a*a + 2*a*b + b*b)   (2,3)
 print(x)
