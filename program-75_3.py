@@ -19,9 +19,9 @@ class student_details :
                                                        # Creating an object
 rahim = student_details ()
 
-rahim.input_value(101, 3.45, '3rd')                    # Calling input method
+rahim.input_value(101, 3.45, '3rd')                    # Calling the input method
 
-rahim.output_value()                                   # calling output method
+rahim.output_value()                                   # calling the output method
 
 
 himadri = student_details ()
