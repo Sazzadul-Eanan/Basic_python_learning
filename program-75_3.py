@@ -13,21 +13,29 @@ class student_details :
         self.standing = standing
 
                                                                    # Output method
-    def display_value(self) :
+    def output_value(self) :
         print (f'Roll : {self.roll}, Gpa : {self.gpa}, Standing : {self.standing}')
 
-                                                                   # Objects
+                                                       # Creating an object
 rahim = student_details ()
-rahim.input_value(101, 3.45, '3rd')
-rahim.display_value()
+
+rahim.input_value(101, 3.45, '3rd')                    # Calling input method
+
+rahim.output_value()                                   # calling output method
+
 
 himadri = student_details ()
+
 himadri.input_value(201, 3.62, '2nd')
-himadri.display_value()
+
+himadri.output_value()
+
 
 phoebe = student_details ()
+
 phoebe.input_value(301, 3.97, '1st')
-phoebe.display_value()
+
+phoebe.output_value()
 
 
 
