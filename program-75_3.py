@@ -1,42 +1,29 @@
 # METHOD : A function used under a class is called method
 
-# Using a common method (function) to input and output all the objects
+# Using a common method (function) to print all the objects' output
 
 class student_details :
     roll = ''
     gpa = ''
-    standing = ''
+    merit = ''
 
-    def input_value (self, roll, gpa, standing) :                  # Input method
-        self.roll = roll
-        self.gpa = gpa
-        self.standing = standing
+                                        # creating the method
+    def print_out (self) :
+        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Merit : {self.merit}')
 
-                                                                   # Output method
-    def output_value(self) :
-        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Standing : {self.standing}')
-
-                                                       # Creating an object
 rahim = student_details ()
+rahim.roll = 123
+rahim.gpa = 3.78
+rahim.merit = '2nd'
 
-rahim.input_value(101, 3.45, '3rd')                    # Calling the input method
-
-rahim.output_value()                                   # calling the output method
-
+rahim.print_out()                       # calling the function
 
 himadri = student_details ()
+himadri.roll = 546
+himadri.gpa = 3.94
+himadri.merit = '1st'
 
-himadri.input_value(201, 3.62, '2nd')
-
-himadri.output_value()
-
-
-phoebe = student_details ()
-
-phoebe.input_value(301, 3.97, '1st')
-
-phoebe.output_value()
-
+himadri.print_out()                     # calling the function
 
 
 

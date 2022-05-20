@@ -16,7 +16,7 @@ class xiaomi (phone) :
 
 # Now the class 'xiaomi' is inheriting the methods of class 'phone'
 
-x = xiaomi()
+x = xiaomi()                                      # creating object
                                                   # calling both the method individually
 x.call()
 x.message()

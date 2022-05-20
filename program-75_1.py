@@ -1,6 +1,6 @@
 # 00P : Object Oriented Programming
 
-# Inside a class there remain the object
+# Inside a class there remain method and object
 
 # Object is also known as instance
 
@@ -26,6 +26,7 @@ print (f'Roll : {Shafiq.roll}, Gpa : {Shafiq.gpa}, Standing : {Shafiq.standing}'
 
 
 # To understand the f'' see program-12 again
+
 
 
 
