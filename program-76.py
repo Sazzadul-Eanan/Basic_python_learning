@@ -9,8 +9,8 @@ class student_details :
     gpa = ''
     standing = ''
 
-    def __init__ (self, roll, gpa, standing) :                     # Constructor method
-        self.roll = roll                                           # Use __init__ function
+    def __init__ (self, roll, gpa, standing) :                     # Constructor method ( __init__ function )
+        self.roll = roll
         self.gpa = gpa
         self.standing = standing
 
