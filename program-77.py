@@ -8,7 +8,7 @@ class triangle :                                         # creating the class
         self.height = height
 
     def calc_area (self) :                               # output method
-        area = .5 * self.base * self.height
+        area = 0.5 * self.base * self.height
         print('Area of the triangle : ', area)
 
 triangle_1 = triangle (60 , 80)                          # triangle-1

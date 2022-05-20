@@ -4,7 +4,7 @@
 
 
 class phone :                                     # parent class / super class / base class
-    def call (self) :
+    def call (self) :                             # (notice the sign beside code's serial no.)
         print('You can call.')
     def message (self) :
         print('You can message.')
