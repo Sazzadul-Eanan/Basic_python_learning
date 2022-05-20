@@ -23,7 +23,7 @@ rahim = student_details (1001, 3.65, '2nd')                # input value directl
 
 rahim.output_value()                                       # calling the output method
 
-
+                                                           # notice that the 'constructor method' has not been called
 
 himadri = student_details (2001, 3.82, '1st')
 

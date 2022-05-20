@@ -11,13 +11,13 @@ class phone :                                     # parent class / super class /
 
                                                   # child class / sub class / derived class
 class xiaomi (phone) :
-    def photo (self) :                            # importing the methods of 'phone' into the class 'xiaomi'
+    def photo (self) :                            # '(phone)' means importing the methods of 'phone' into the class 'xiaomi'
         print('You can take photo.')
 
 # Now the class 'xiaomi' is inheriting the methods of class 'phone'
 
-x = xiaomi()                                      # calling the 'xiaomi' function
-
+x = xiaomi()
+                                                  # calling both the method individually
 x.call()
 x.message()
 

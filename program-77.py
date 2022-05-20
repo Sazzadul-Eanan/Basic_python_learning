@@ -1,4 +1,4 @@
-# Calculating the area of triangle in OOP.
+# Calculating the area of triangle in OOP (using class and method).
 
 
 class triangle :                                         # creating the class
