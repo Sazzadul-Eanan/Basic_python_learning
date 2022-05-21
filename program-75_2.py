@@ -6,7 +6,7 @@
 
 class fahim :                                     # creating class
 
-    def display (self) :                          # creating method
+    def display (self) :                          # creating method       # 'self' is the variable for storing the object 'x'
         print ('I am under class_fahim')
 
 x = fahim()                                       # creating object

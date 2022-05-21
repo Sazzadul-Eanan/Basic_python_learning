@@ -6,8 +6,8 @@ class shape :                                         # A Template class of comm
     def __init__(self, dim1, dim2) :
         self.dim1 = dim1
         self.dim2 = dim2
-    def area (self) :
-        print ('I am area method of shape class')
+    def area (self) :                                 # Just a dysfunctional 'model' method also known as 'abstract' method
+        pass
 
 class triangle (shape) :
     def area (self) :                                 # Overriding the area method
