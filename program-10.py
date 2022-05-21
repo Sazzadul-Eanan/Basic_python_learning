@@ -1,6 +1,6 @@
 # Use of Math library functions-
 
-from math import *   # calling the library
+from math import *   # calling the library / Module
 
 print(max(100,50))   # which one is maximum
 print(min(100,50))   # which one is minimum
