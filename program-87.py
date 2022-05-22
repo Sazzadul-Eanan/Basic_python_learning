@@ -1,18 +1,20 @@
-# Creating and using a user-defined module
+# Zip function can convert so many 'list' or 'tuple' into a single list (of tuples)
+# It returns an iterator, from two or more iterators
 
+id = [101, 102, 103, 104, 105]
+name = ['Fahim','Karim','Rahim','Fokir','Tokir']
+country = ['China', 'India', 'France', 'Mali', 'Chad']
 
-# To create a module, save the code in a file of the format '.py' and name the file, which is the module's name
-
-# Name of my created module is  :  my_first_module
-
-
-
-# Using a 'user-defined' module -
-
-from my_first_module import *             # calling the module
-
-triangle_area(40, 80)                     # input for the function of the module
+x = list(zip(id, name, country))
+print(x)
 
 
 
-# Run the program and see the output
+
+# If one list or tuple contains more items than the others, these items are ignored
+
+id = (101, 102, 103, 104, 105)
+name = ('Fahim','Karim','Rahim','Fokir','Tokir', 'Sogir', 'Mogir')
+
+x = list(zip(id, name))
+print(x)

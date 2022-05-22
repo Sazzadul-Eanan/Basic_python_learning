@@ -1,12 +1,13 @@
-# X-arguments
-# arguments give output as 'tuples' so from a 'multi-parameter' function every single items can be printed
+# Stack......'LIFO' (Last in first out)
 
-def student (*details) :
-    print(details[0])        # index value of expected output
-'''
-student('Fahim')
-student(1001, 'Fahim')
-'''
-student(1001, 'Fahim', 'Male')
+books = []
+
+books.append('Read')      # push item into the stack
+books.append('Write')
+books.append('Speak')
+print(books)
+print('Pushing items into the stack is done.')
 
 
+books.pop()               # remove item from the stack
+print(books)              # notice the LIFO action into the 'output'

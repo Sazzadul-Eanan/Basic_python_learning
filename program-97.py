@@ -1,39 +1,30 @@
-# Regular expression : Character classes []
+# Constructor Method:
 
-# Character classes are sets of characters or ranges of characters enclosed by square brackets []
+# Using this method the 'value' of an object can directly be input
 
-# Character class : Range
+# It reduces the necessity of calling the input function (here, constructor method)
 
+class student_details :
+    roll = ''
+    gpa = ''
+    standing = ''
 
-# Example - (1)
+    def __init__ (self, roll, gpa, standing) :                     # Constructor method ( __init__ function )
+        self.roll = roll
+        self.gpa = gpa
+        self.standing = standing
 
-import re
-
-patt = r'[a-z]'                          # Means if there is any match in the string for the range
-
-if re.match(patt,'eghok') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
-# Example - (2)
-
-import re
-
-patt = r'[0-9]'
-
-if re.match(patt,'gioumtpw') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
+                                                                   # Output method
+    def output_value(self) :
+        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Standing : {self.standing}')
 
 
+rahim = student_details (1001, 3.65, '2nd')                # input value directly into the object name
 
+rahim.output_value()                                       # calling the output method
 
+                                                           # notice that the 'constructor method' has not been called
 
+himadri = student_details (2001, 3.82, '1st')
 
-
+himadri.output_value()

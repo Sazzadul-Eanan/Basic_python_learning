@@ -1,36 +1,41 @@
-# Regular expression : Character classes []
+# METHOD : A function used under a class is called method
 
-# Character classes are sets of characters or ranges of characters enclosed by square brackets []
+# Using a common method (function) to input and output all the objects
 
+class student_details :
+    roll = ''
+    gpa = ''
+    standing = ''
 
+    def input_value (self, roll, gpa, standing) :                  # Input method
+        self.roll = roll
+        self.gpa = gpa
+        self.standing = standing
 
-# Example - (1)
+                                                                   # Output method
+    def output_value(self) :
+        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Standing : {self.standing}')
 
-import re
+                                                       # Creating an object
+rahim = student_details ()
 
-patt = r'[aeiou]'                            # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
+rahim.input_value(101, 3.45, '3rd')                    # Calling the input method
 
-if re.match(patt,'eghoklaeioumntpwi') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
-# Example - (2)
-
-import re
-
-patt = r'[aeiou]'                             # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
-
-if re.match(patt,'geiouhghoklaeioumntpw') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
+rahim.output_value()                                   # calling the output method
 
 
+himadri = student_details ()
+
+himadri.input_value(201, 3.62, '2nd')
+
+himadri.output_value()
+
+
+phoebe = student_details ()
+
+phoebe.input_value(301, 3.97, '1st')
+
+phoebe.output_value()
 
 
 

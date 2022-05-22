@@ -1,8 +1,21 @@
-# Inner_if Or nested_if statement
+# elif statement-
 
+# A Letter grade program using 'elif' statement, working upon user input
 
-if 9>7 :              # as this is a true statement it goes to check the next one
+marks = int(input("Enter the obtained marks :- "))
 
-    if 9<3 :                 # as this is a false statement it will print nothing
+if marks >= 80 :
+    print('A+')
+elif marks >= 70 :
+    print('A')
+elif marks >= 60 :
+    print('A-')
+elif marks >= 50 :
+    print('B')
+elif marks >= 40 :
+    print('C')
+elif marks >= 33 :
+    print('D')
 
-        print("MBAPPE")
+else:
+    print('Fail')

@@ -1,24 +1,12 @@
 # if_else_statement
 
-mark = 88
+# Remember in 'if else statement' if the 'if-condition' works then 'else' will not work and when 'else-condition' works then 'if' will not work
 
-if mark >= 33 :
-     print( "Pass" )
+x = 100
+y = 50
 
-else:
-     print( "Fail" )
+if x > y :         # the condition should be inside the colon sign ( : )
+    print("x")
 
-'''     
-# Take user input for 'if else' statement 
-     
-mark = int(input("Enter your obtained marks :- "))     # int for integer conversion of the "string"
-
-if mark >= 33:
-     
-     print("The result is : Pass")
-
-else:
-          
-     print("The result is : Fail")
-'''
-
+else :
+    print("y")

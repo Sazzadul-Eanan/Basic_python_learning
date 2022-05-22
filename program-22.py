@@ -1,10 +1,12 @@
-# Use of 'ternary operator' to find the greatest number among two numbers
+# Use of 'else condition' in the 'nested_if' statement
 
-# First, see program-14 again
 
-num1 = 100
-num2 = 50
+if 9>7 :          # as this is a true statement it goes to the next one
 
-print(num1 if num1 > num2 else num2)
+    if 9<3 :            # as this is a false statement it jumps to the 'else condition'
 
-# 'Ternary' because there are 'three statements' inside 'print'
+        print("MBAPPE")
+
+    else :
+
+        print("FAHIM")

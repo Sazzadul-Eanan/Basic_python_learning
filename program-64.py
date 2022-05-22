@@ -1,10 +1,10 @@
-# XX-arguments
-# use the key to print expected 'value'
+# Queue.........'FIFO' (first in first out)
 
-def student(**details) :
-    print(details ['name'])
+from collections import deque        # call a function for 'queue'
 
-student (id = 10001, name = 'Fahim')
+manline = deque(['Tushar', 'Pobel', 'Ridoy'])       # double bracket for double argument of 'deque' and 'list'
 
+print(manline)
 
-
+manline.popleft()
+print(manline)           # notice 'FIFO' in the output

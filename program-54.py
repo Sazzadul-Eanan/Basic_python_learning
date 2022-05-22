@@ -1,17 +1,12 @@
-# Stack......'LIFO'
+# list as input (string) from user
 
-books = []
+x = input('Enter a text of numbers :- ')
 
-books.append('Read')
-books.append('Write')
-books.append('Speak')
+list = x.split()     # split function converts the 'text' format of numbers as 'list' format
+sum = 0
 
-print(books)
-                    # pop!
+for i in list :
+    sum = sum + int(i)
 
-books.pop()         # 1st
-books.pop()         # 2nd
-books.pop()         # 3rd
+print(sum)
 
-if not books :
-    print('No Books Left')

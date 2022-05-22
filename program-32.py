@@ -1,23 +1,12 @@
-# Finding the sum of a sequence ( 2, 4, 6....n ) using 'while-loop' and 'input' from the user
+# Continue - this allows you to skip over some part of a loop’s iteration for a particular value, but then to continue with the remaining values in the sequence.
 
-n = int(input('Enter the last term :- '))
+# 'continue' can't work without 'if condition'
 
-sum = 0
-i = 2
-while i <= n :         # 'n' is the last term of the sequence up to which all the numbers will be added
-    sum = sum + i
-    i = i + 2
-
-print (sum)
+# For-loop : continue
 
 
+for x in range (1 , 8) :
 
-# Finding the sum of a sequence ( 2, 4, 6....n ) using 'for-loop' and 'input' from the user
-
-n = int(input('enter the last term : '))
-
-sum = 0
-for i in range (2, n+1, 2) :
-    sum = sum + i
-
-print(sum)
+    if x == 4 :                    # skip over 4
+        continue
+    print(x)

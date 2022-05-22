@@ -1,29 +1,14 @@
-# Regular expression : Meta characters
+# Swapping - is the process of exchanging the previously assigned 'values' of two variables among themselves
 
-# * (asterisk) character : 0 or, more
+a = 50
+b = 100
 
+a, b = b , a           # exchanging the values 'a' to 'b' and 'b' to 'a'
 
-
-import re
-
-patt = r'A*'                            # Means the character remains 0 times or more in the string
-
-if re.match(patt,'American') :          # 'Match()' gives output as boolean
-
-    print ('Matched')
-else :
-    print('Not Matched')
+print('a = ', a)
+print('b = ', b)
 
 
-
-# Example - (2)
-
-import re
-
-patt = r'A*'
-
-if re.match(patt,'morocco') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
+'''
+print('a =', a  , " " , 'b =', b)
+'''

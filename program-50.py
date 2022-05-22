@@ -1,38 +1,11 @@
-# Set { }
+# Sum of a squared exponential series
 
-# set are immutable
-# set is an unordered(un-indexed) collection of item
-# items of set can not be accessed with 'index' value
-# duplicate value is not allowed
-# can be created with 'curly' bracket or 'set' function
+    # 1**2 + 2**2 + 3**2 + ... + n**2
 
 
-s1 = {1, 2, 3, 4}
+n = int(input("Enter the last number :- "))
+sum = 0
+for x in range (1, n+1, 1) :     # 1 is the lower limit, n+1 is the upper limit and 1 is the interval of the series
+    sum = sum + x*x              # x*x means the square function, such as 3 squared is actually 3x3, 4 squared is 4x4, etc.
 
-print(s1)
-
-'''
-print(3 in s1)       # check the existence of a number in a set
-'''
-'''
-print(len(s1))       # length of the set 
-'''
-'''
-s1.add(9)            # add new item into a set
-print(s1)
-'''
-'''
-s1.remove(2)         # remove item from a set 
-print(s1)
-'''
-'''
-print(max(s1))       # maximum value of the set 
-'''
-'''
-print(min(s1))       # minimum value of the set
-'''
-'''
-s2 = [100, 200, 300, 400]        # here s2 is a list
-s3 = set(s2)         # conversion from other data structure to 'set' using set function
-print(s3)
-'''
+print(sum)

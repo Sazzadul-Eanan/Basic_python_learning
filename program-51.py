@@ -1,14 +1,11 @@
-# Set related functions
+# Sum of a multiplied series
 
-s1 = {1, 2, 3, 4, 5}
-s2 = {4, 5, 6, 7, 8}
+    # 1 x 2 x 3 x ... x n
 
-# print(s1 | s2)       # union of two sets, omits duplicate items
+n = int(input("Enter the last number :- "))
 
-# print(s1 & s2)       # intersection of two sets, keeps the common items
+sum = 1                          # sum is not '0' for this type of multiplied series
+for x in range (1, n+1) :        # 1 is the lower limit, n+1 is the upper limit of the series
+    sum = sum * x                # if the sum were '0' here, then the whole sum will be '0' after the multiplication
 
-# print(s1 - s2)       # difference - what are the unique items of 's1'
-
-# print(s1 ^ s2)       # symmetric difference - all the unique values in the two sets (it is the inverse of the intersection)
-
-#
+print(sum)

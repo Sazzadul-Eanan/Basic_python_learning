@@ -1,34 +1,9 @@
-# Printing all the 'even numbers (up to 13)' using loop-
+# Letter grade program
 
-# While loop
+# To 'or' logical operator to work, at least one of the conditions from both the sides of 'or' has to be 'true'
 
-i = 2
+marks = 75
 
-while i <= 13 :
-    print(i)
-    i = i + 2
+if marks >= 80 or marks <= 100 :
 
-
-# for loop
-
-for i in range(1, 13) :
-    if i % 2 == 0 :
-        print(i)
-
-'''     
-# Printing all the 'odd numbers (up to 13)' using loop-
-
-# While loop
-
-i = 1
-
-while i <= 13 :
-    print(i)
-    i = i + 2
-    
-# for loop
-
-for i in range(1, 13) :
-    if i % 2 != 0 :
-        print(i)
-'''
+   print('A')

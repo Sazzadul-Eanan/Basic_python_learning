@@ -1,10 +1,17 @@
-# XX-arguments / Key word arguments
-# this argument gives output as 'dictionary' and can print both the 'key' and the 'value'
+# Stack......'LIFO'
 
-def student(**details) :       # double asterisks symbol
-    print(details)
+books = []
 
-student (id = 10001, name = 'Fahim')
+books.append('Read')
+books.append('Write')
+books.append('Speak')
 
+print(books)
+                    # pop!
 
+books.pop()         # 1st
+books.pop()         # 2nd
+books.pop()         # 3rd
 
+if not books :
+    print('No Books Left')

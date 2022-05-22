@@ -1,30 +1,9 @@
-# Constructor Method:
+# X-arguments / Arbitrary arguments
+# the way through which we can pass as many 'parameters' as we want within a 'function' without declaring any of the 'parameters'
 
-# Using this method the 'value' of an object can directly be input
+def student (*details) :     # details is only a variable but the *(asterisks) play the role of the 'arguments'
+    print(details)
 
-# It reduces the necessity of calling the input function (here, constructor method)
-
-class student_details :
-    roll = ''
-    gpa = ''
-    standing = ''
-
-    def __init__ (self, roll, gpa, standing) :                     # Constructor method ( __init__ function )
-        self.roll = roll
-        self.gpa = gpa
-        self.standing = standing
-
-                                                                   # Output method
-    def output_value(self) :
-        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Standing : {self.standing}')
-
-
-rahim = student_details (1001, 3.65, '2nd')                # input value directly into the object name
-
-rahim.output_value()                                       # calling the output method
-
-                                                           # notice that the 'constructor method' has not been called
-
-himadri = student_details (2001, 3.82, '1st')
-
-himadri.output_value()
+student('Fahim')
+student(1001, 'Fahim')
+student(1001, 'Fahim', 'Male')

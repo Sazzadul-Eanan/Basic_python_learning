@@ -1,9 +1,11 @@
-# Formatting string-
+# Using 'type' function for checking data type-
 
-# F-strings provide a concise, readable way to include the 'value' of Python expressions inside strings
+w = "fahim"
+x = 20
+y = 20.5
+z = True
 
-num1 = 30
-num2 = 70
-
-print(f" {num1} + {num2} = {num1 + num2}")          # f " " or F " " is the formatting strings key
-
+print(type(w))
+print(type(x))
+print(type(y))
+print(type(z))

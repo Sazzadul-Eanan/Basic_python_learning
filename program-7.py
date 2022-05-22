@@ -1,23 +1,24 @@
-# Input Data type = string
+# Use quotation mark (" ") to get all the numerical values and characters ( alphabet )as strings-
 
-'''
-num1= input("Enter first number : ")
-num2= input("Enter second number : ")
-sum= num1+num2
-print(sum)
-'''
+'''                 # Putting 3 single quotation marks in the top and bottom line is another way of creating comments and make some code inactive for a while
+name = "Robin"
+age = "32"
+gpa = "3.96"
+print("Student's Information")
+print("---------------------")
+print("Name : " +name)
+print("Age : " +age)
+print("Gpa : " +gpa)
+'''                  # Putting 3 single quotation marks in the top and bottom line is another way of creating comments and make some code inactive for a while
 
-# Converting string to integer-
 
-'''
-num1= input("Enter first number : ")
-num2= input("Enter second number : ")
-sum= int(num1)+int(num2)               # 'Int' is a function for converting any other numerical expressions like decimal (float) into 'integer'
-print(sum)
-'''
-# Converting string to float or, decimal-
+# Using 'input' function for taking the input from user -
 
-num1= input("Enter first number : ")
-num2= input("Enter second number : ")
-sum= float(num1)+float(num2)
-print(sum)
+name = input("Enter student's name - ")
+age = input("Enter student's age - ")
+gpa = input("Enter student's gpa - ")
+print("Student's Information")
+print("---------------------")
+print("Name : " +name)
+print("Age : " +age)
+print("Gpa : " +gpa)

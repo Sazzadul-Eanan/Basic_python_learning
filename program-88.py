@@ -1,74 +1,17 @@
-# Regular Expressions (regex) are used to match and extract any string related pattern from the strings of text such as particular word, or patterns of character
+# Recursion is a process where a function can call itself again and again
 
-# Regex are tools for manipulating strings
+# after the job is done the 'recursive call' can be stopped by the 'base case'
 
-# The most common use of regex is form validation, i.e. email validation, password validation, phone number validation etc.
+# program to get the value of 5!
 
-# Some most used functions of 're' module are - match(), search(), findall()
+# background theory   :   n! = n * (n-1)!                # 5! = 5 * 4!
 
+def fact(n) :
+    if n == 1 :        # base case
+        return 1
+    else :
+        return n * fact(n-1)
 
+x = fact(5)
 
-# Use 'match()' to check the match at the beginning of a string
-# This function gives output in boolean
-
-import re                    # importing the 're' module
-
-pattern = r'colour'          # r' ' means that the string is to be treated as a raw string, which means all escape codes will be ignored
-
-if re.match(pattern, 'Red is the colour from my favourite colour') :
-    print('Matched')
-
-else :
-    print('Not Matched')
-
-
-
-# Use 'findall()' to get a list of all substrings that match a pattern
-
-import re
-
-pattern = r'colour'
-
-w = re.findall(pattern, 'Red is the colour from my favourite colour')
-
-print(w)
-
-
-
-# Use 'search()' to find a match of a pattern anywhere in the string
-# This function gives output in boolean
-
-import re
-
-pattern = r'my'
-
-if re.search(pattern, 'Red is the colour from my favourite colour') :
-    print('Matched')
-
-else :
-    print('Not Matched')
-
-
-'''
-
-# 'search()' can also generate the index values of a specific substring from both end
-
-import re
-
-sub_string = r'colo'
-
-text = 'My favourite colour is red colour'
-
-y = re.search(sub_string, text)
-
-if y :                                            # if any value for 'y' is found then print 
-    print(y.start())
-    print(y.end())
-    print(y.span())
-
-'''
-
-
-
-
-
+print(x)

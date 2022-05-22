@@ -1,17 +1,22 @@
-# Recursion is a process where a function can call itself again and again
+# Local variable and Global variable for a function
 
-# after the job is done the 'recursive call' can be stopped by the 'base case'
+# A local variable is a variable which is defined inside a function
+# Its scope is limited to that function only
 
-# program to get the value of 5!
 
-# background theory   :   n! = n * (n-1)!                # 5! = 5 * 4!
+def name ( ) :
+    x = 'My name is Fahim'          # local scope
+    print(x)
+name()
 
-def fact(n) :
-    if n == 1 :        # base case
-        return 1
-    else :
-        return n * fact(n-1)
 
-x = fact(5)
+'''
+# A local variable is not usable outside the function
 
-print(x)
+def name ( ) :
+    x = 'My name is Fahim'
+    print(x)                        # Inside the function's indent 
+name()
+
+print(x)                            # Outside the function's indent 
+'''

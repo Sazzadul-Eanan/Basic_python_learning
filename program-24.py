@@ -1,13 +1,10 @@
-# Use of 'or' logical operator inside 'if statement'
+# Use of 'ternary operator' to find the greatest number among two numbers
 
-  # Finding the vowel or consonant
+# First, see program-14 again
 
-     # vowels = a e i o u
+num1 = 100
+num2 = 50
 
-ch = 'R'          # ch means character
+print(num1 if num1 > num2 else num2)
 
-if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u' :
-    print('Vowel')
-
-else :
-    print('Consonant')
+# 'Ternary' because there are 'three statements' inside 'print'

@@ -1,9 +1,14 @@
-# X-arguments / Arbitrary arguments
-# the way through which we can pass as many 'parameters' as we want within a 'function' without declaring any of the 'parameters'
+# Set related functions
 
-def student (*details) :     # details is only a variable but the *(asterisks) play the role of the 'arguments'
-    print(details)
+s1 = {1, 2, 3, 4, 5}
+s2 = {4, 5, 6, 7, 8}
 
-student('Fahim')
-student(1001, 'Fahim')
-student(1001, 'Fahim', 'Male')
+# print(s1 | s2)       # union of two sets, omits duplicate items
+
+# print(s1 & s2)       # intersection of two sets, keeps the common items
+
+# print(s1 - s2)       # difference - what are the unique items of 's1'
+
+# print(s1 ^ s2)       # symmetric difference - all the unique values in the two sets (it is the inverse of the intersection)
+
+#

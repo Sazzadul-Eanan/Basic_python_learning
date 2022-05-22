@@ -1,11 +1,31 @@
-# Sum of a multiplied series
+# There are four classes in Python that provide container like behaviour; that is data types for holding collections of other objects, these are - Tuples,  Lists,  Sets,  Dictionary
 
-    # 1 x 2 x 3 x ... x n
+# TUPLE ( )
 
-n = int(input("Enter the last number :- "))
+# It is not possible to add or remove elements from a Tuple; they are immutable.
 
-sum = 1                          # sum is not '0' for this type of multiplied series
-for x in range (1, n+1) :        # 1 is the lower limit, n+1 is the upper limit of the series
-    sum = sum * x                # if the sum were '0' here, then the whole sum will be '0' after the multiplication
+tup1 = (6, 5, 8, 'plum', 7, 4, 'apple')           # use round bracket
 
-print(sum)
+print(tup1[2])               # accessing the elements of a Tuple using index value
+
+print(tup1[1:3])             # slicing a Tuple using index value
+
+print(len(tup1))             # length of a Tuple
+
+print(tup1.index('plum'))           # find the index of an item in a Tuple
+
+list1 = [1, 2, 3]
+tup = tuple(list1)           # transforming other collection type to 'Tuple'
+print(tup)
+
+
+
+# Nested Tuples
+
+tuple1 = (1, 3, 5, 7)
+tuple2 = ('John', 'Denise', 'Phoebe', 'Adam')
+tuple3 = (42, tuple1, tuple2, 5.5)
+
+print(tuple3)
+
+# In fact, a Tuple can have nested within it not just other Tuples but any type of container, and thus it can contain Lists, Sets, Dictionaries etc.

@@ -1,34 +1,26 @@
-# Regular Expression : sub()
+# Opening a .txt file into a python file and read
 
-# The 'sub()' can search an existing substring / pattern and replace it with a new one from the text
+# create a 'Fahim.txt' file before at hand to open
 
-# 3 parameters can be passed within the function : sub (pattern_looking_for, pattern_replacement, pattern_from_the_text)
+xy = open ('Fahim.txt', 'r+')      # 'r' for read mode     # 'w' for write mode    # 'r+' means both
+                                   # 'xy' is a variable
+# print(xy.readable())             # check whether the file is 'readable' or not
+
+# print(xy.writable())
+
+# file = (xy.read())               # 'file' is a variable
+# print(file)                      # read the file in the 'output'
+
+# print(len(file))                 # calculate the overall 'characters' of the file
+
+# felix = xy.readlines()           # convert the whole file into a 'list'
+# print(felix)                     # 'felix' is a variable
+
+# felix = xy.readlines()[0]        # print the 'first line' of the file using 'index value'
+# print(felix)
+
+for lines in xy :                  # print the whole file using 'for loop'
+   print(lines)
 
 
-
-import re
-
-pattern_searching = r'cricket'
-
-text = 'My favourite game is cricket, I love to play cricket'
-
-edited_text = re.sub(pattern_searching, 'football', text)
-
-print(edited_text)
-
-
-'''
-
-# An additional parameter can be passed to replace a recurrent pattern for 'x' times
-
-import re
-
-pattern_searching = r'cricket'
-
-text = 'My favourite game is cricket, I love to play cricket'
-
-edited_text = re.sub(pattern_searching, 'football', text, count=1)        # Replace the pattern in its first count only  
-
-print(edited_text)
-
-'''
+xy.close()                         # when to open a file other than 'python file', the good practice is to give a 'close' command as well

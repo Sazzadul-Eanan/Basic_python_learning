@@ -1,13 +1,23 @@
-# Use of Math library functions-
+# Program for measuring the area of a triangle -
 
-from math import *   # calling the library / Module
+base = float(input("enter base = "))
+height = float(input("enter height = "))
+area = (0.5 * base * height)
 
-print(max(100,50))   # which one is maximum
-print(min(100,50))   # which one is minimum
-print(abs(-56))      # absolute value
-print(pow(2,5))      # x to the power y
-print(sqrt(25))      # square_root
-print(round(3.9))    # rounding to the nearest decimal
-print(floor(3.8))    # lower_integer
-print(ceil(3.8))     # upper_integer
+print(area)
 
+
+# Create a program to measure the area of a trapezoid
+
+base1 = int(input('please enter the base1 : '))
+base2 = int(input('please enter the base2 : '))
+height = int(input('please enter the height : '))
+
+print('The area of the trapezoid is :', (base1 + base2)/2 * height)
+
+
+# Create a program to measure the area of a circle
+
+r = int(input('please enter the radius : '))
+
+print('The area of the circle is : ', 3.1416 * (r**2))

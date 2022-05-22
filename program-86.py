@@ -1,32 +1,23 @@
-# Modules : are simply files with the '.py' format containing python code that can be imported inside another python program
-
-# Consider a Module the same as a 'code library' that contains a set of functions that can be re-used in another program
-
-# Modules can be of two type : 'built-in' module and 'user-formed' module
-
-# To incorporate the module into a program use the 'from' keyword and to get functions from a module use the 'import' keyword
+# Comprehensive List
 
 
-# Using a built-in module :
+# [ 'expression' for 'item' in iterable ] .....is the format of a 'comprehensive list'
+# The list comprehension has three parts : an expression , one or more for loop, and sometimes one or more if condition
+# The list comprehension must be in the square brackets [ ]
 
 
-# Command 'ctrl + space' on keyboard to see the list of all functions of a module
+'''
+# list comprehension of a 'map function' code (see again) program-66
 
-from math import pow  # Then select a desired function directly from the list to work on
+num = [1, 2, 3, 4, 5, 6]
+result = [x*x for x in num]
+print(result)
 
-four_cube = pow(4, 3)
+'''
 
-print(four_cube)
+# list comprehension of a 'filter function' code (see again) program-67
 
-
-# Or,
-
-
-from math import *  # Use * (asterisk sign) to import all the functions from a module
-
-Two_cube = pow(2, 3)  # Then select the specific function (here, power) to work on
-
-print(Two_cube)
-
-
+num = [1, 2, 3, 4, 5, 6]
+result = [x for x in num if x % 2 == 0]
+print(result)
 

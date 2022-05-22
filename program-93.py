@@ -1,32 +1,31 @@
-# Regular expression : Meta characters
+# 00P : Object Oriented Programming
 
-# + (plus) character : 1 or, more
+# Inside a class there remain method and object
 
-# Example - (1)
-
-import re
-
-patt = r'A+'                          # Means the character remains 1 time or more in the string
-
-if re.match(patt,'Chinese') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
+# Object is also known as instance
 
 
-# Example - (2)
+class student_details :                    # Creating a class                # 'Student_details' is the name of the class
+    roll = ''
+    gpa = ''
+    standing = ''
 
-import re
+Rahim = student_details()                  # Creating an object              # 'Rahim' is the name of the object
+Rahim.roll = 1001
+Rahim.gpa = 3.76
+Rahim.standing = '2nd'
+print (f'Roll : {Rahim.roll}, Gpa : {Rahim.gpa}, Standing : {Rahim.standing}')
 
-patt = r'A+'
 
-if re.match(patt,'Arctic') :
+Shafiq = student_details()                 # Another object
+Shafiq.roll = 2002
+Shafiq.gpa = 3.85
+Shafiq.standing = '1st'
+print (f'Roll : {Shafiq.roll}, Gpa : {Shafiq.gpa}, Standing : {Shafiq.standing}')
 
-    print ('Matched')
-else :
-    print('Not Matched')
 
+
+# To understand the f'' see program-12 again
 
 
 

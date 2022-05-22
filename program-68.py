@@ -1,23 +1,13 @@
-# Comprehensive List
+# PARAMETERS and ARGUMENTS are used for passing data into the function
 
+# PARAMETER-
 
-# [ 'expression' for 'item' in iterable ] .....is the format of a 'comprehensive list'
-# The list comprehension has three parts : an expression , one or more for loop, and sometimes one or more if condition
-# The list comprehension must be in the square brackets [ ]
+# A parameter is a variable defined as part of the function header and is used to make data available within the function itself.
+# Once A parameter has a default value all remaining parameters to the right of that parameter must also have default values.
+# To define a parameter list as being of arbitrary length, a parameter is marked with an asterisk (*).
 
+def add(x, y):      # x,y are parameters
+ sum = x + y        # The 'function body' defines what the function does
+ print(sum)
 
-'''
-# list comprehension of a 'map function' code (see again) program-66
-
-num = [1, 2, 3, 4, 5, 6]
-result = [x*x for x in num]
-print(result)
-
-'''
-
-# list comprehension of a 'filter function' code (see again) program-67
-
-num = [1, 2, 3, 4, 5, 6]
-result = [x for x in num if x % 2 == 0]
-print(result)
-
+add(25, 75)         # calling the functions

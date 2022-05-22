@@ -1,24 +1,15 @@
-# Use quotation mark (" ") to get all the numerical values and characters ( alphabet )as strings-
+# Mathematical operations using variable-
 
-'''                 # Putting 3 single quotation marks in the top and bottom line is another way of creating comments and make some code inactive for a while
-name = "Robin"
-age = "32"
-gpa = "3.96"
-print("Student's Information")
-print("---------------------")
-print("Name : " +name)
-print("Age : " +age)
-print("Gpa : " +gpa)
-'''                  # Putting 3 single quotation marks in the top and bottom line is another way of creating comments and make some code inactive for a while
+a = 11
+b = 4
 
+x = 2
+y = 3
 
-# Using 'input' function for taking the input from user -
-
-name = input("Enter student's name - ")
-age = input("Enter student's age - ")
-gpa = input("Enter student's gpa - ")
-print("Student's Information")
-print("---------------------")
-print("Name : " +name)
-print("Age : " +age)
-print("Gpa : " +gpa)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(x**y)

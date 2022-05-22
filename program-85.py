@@ -1,22 +1,16 @@
-# Magic Methods : in Python are the special methods that start and end with the 'double underscores'
-# Also known as Dunder Methods
-# Magic methods are not invoked directly, but the invocation happens internally from the class on a certain action
+# Filter function can filter out items, based on some 'conditions' assigned on an iterable
+# Filter function always works with iterable object specially 'list'
+# the condition-unmatched 'items' will be removed
 
-# __init__()  To get an object automatically being called by a method without the relevant method being explicitly called by the object
 
-# Some magic methods for comparison and their meaning -
+# Create a program for getting 'even' values from a list of numbers
 
-# __lt__()  use for 'less than' (<)
-# __gt__()  use for 'greater than' (>)
-# __eq__()  use for 'equal' (=)
-# __ne__()  use for 'not equal' (!=)
-# __le__()  use for 'less than equal' (<=)
-# __ge__()  use for 'greater than equal' (>=)
 
-# Some magic methods for arithmatic operation -
+def even (x) :
+   return x % 2 == 0
 
-# __add__()
-# __sub__()
-# __mul__()
-# __div__()
+num = [1, 2, 3, 4, 5, 6]
 
+result = list(filter(even,num))         # 'list()' for relisting the returned values
+
+print(result)

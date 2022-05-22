@@ -1,9 +1,24 @@
-# Even Or Odd
+# if_else_statement
 
-x = 7
+mark = 88
 
-if x % 2 == 0 :                     # The remainder of an even number while divided by '2' is equal to '0'
-    print( "The number is Even." )
+if mark >= 33 :
+     print( "Pass" )
 
-else :
-    print( "The number is Odd." )
+else:
+     print( "Fail" )
+
+'''     
+# Take user input for 'if else' statement 
+     
+mark = int(input("Enter your obtained marks :- "))     # int for integer conversion of the "string"
+
+if mark >= 33:
+     
+     print("The result is : Pass")
+
+else:
+          
+     print("The result is : Fail")
+'''
+

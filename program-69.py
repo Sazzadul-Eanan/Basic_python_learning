@@ -1,20 +1,15 @@
-# Zip function can convert so many 'list' or 'tuple' into a single list (of tuples)
-# It returns an iterator, from two or more iterators
+# PARAMETERS and ARGUMENTS are used for passing data into the function
 
-id = [101, 102, 103, 104, 105]
-name = ['Fahim','Karim','Rahim','Fokir','Tokir']
-country = ['China', 'India', 'France', 'Mali', 'Chad']
+# ARGUMENT-
 
-x = list(zip(id, name, country))
-print(x)
+# An argument is the actual data passed into the function when it is called.
+# This data (argument) will be held within the parameters.
 
+# X-arguments : is the way through which we can pass as many 'parameters' as we want within a 'function' without declaring any of the 'parameters'
 
+def student (*details) :        # details is only a variable but the *(asterisks) play the role of 'arguments'
+    print(details)
 
-
-# If one list or tuple contains more items than the others, these items are ignored
-
-id = (101, 102, 103, 104, 105)
-name = ('Fahim','Karim','Rahim','Fokir','Tokir', 'Sogir', 'Mogir')
-
-x = list(zip(id, name))
-print(x)
+student('Fahim')
+student(1001, 'Fahim')
+student(1001, 'Fahim', 'Male')

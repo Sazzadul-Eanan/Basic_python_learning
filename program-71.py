@@ -1,26 +1,16 @@
-# Opening a .txt file into a python file and read
-
-# create a 'Fahim.txt' file before at hand to open
-
-xy = open ('Fahim.txt', 'r+')      # 'r' for read mode     # 'w' for write mode    # 'r+' means both
-                                   # 'xy' is a variable
-# print(xy.readable())             # check whether the file is 'readable' or not
-
-# print(xy.writable())
-
-# file = (xy.read())               # 'file' is a variable
-# print(file)                      # read the file in the 'output'
-
-# print(len(file))                 # calculate the overall 'characters' of the file
-
-# felix = xy.readlines()           # convert the whole file into a 'list'
-# print(felix)                     # 'felix' is a variable
-
-# felix = xy.readlines()[0]        # print the 'first line' of the file using 'index value'
-# print(felix)
-
-for lines in xy :                  # print the whole file using 'for loop'
-   print(lines)
+# Global variable is a variable which is not defined inside any function
+# Its scope is throughout the program and inside every function
 
 
-xy.close()                         # when to open a file other than 'python file', the good practice is to give a 'close' command as well
+x = 'My name is Fahim'          # global scope
+
+def name ( ) :
+                          # As there is no local variable, the value from the global variable will be used
+
+    print(x)              # Inside the function's indent
+
+name()                    # caller / driver code
+
+
+
+print(x)                  # Outside the function's indent

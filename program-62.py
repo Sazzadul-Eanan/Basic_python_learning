@@ -1,13 +1,12 @@
-# Program for adding numbers using X-arguments of function
+# Stack......'LIFO'
 
-def add(*numbers) :
-    sum = 0
-    for x in numbers :
-        sum = sum + x
-    print(sum)
+books = []
 
-add(20, 30)
-add(20, 20, 60)
-add(50, 50, 50, 50)
+books.append('Read')
+books.append('Write')
+books.append('Speak')
+print(books)
 
+books.pop()         # 1st pop
 
+print('Now the top book is : ', books[-1])

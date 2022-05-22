@@ -1,28 +1,12 @@
-# Create a program to take the range input from the user and add all the numbers in between the range
+# Print all the output in a single horizontal line
+
+i = 0
+
+while i < 10:
+  print(i, ' ', end='')          # the end=' ' is used to place a space after the 'displayed string' instead of a newline
+  i = i + 1                      # ' ' is for the internal gap between two character
 
 
 
-start = int(input('Enter the starting number :  '))
-end = int(input('Enter the ending number :  '))
-
-'''
-# using the while loop -
-
-sum = 0
-i = start
-
-while i <= end :
-    sum = sum + i
-    i = i + i
-print (sum)
-'''
 
 
-# using the for loop -
-
-
-sum = 0
-
-for i in range (start, end+1) :
-    sum = sum + i
-print(sum)

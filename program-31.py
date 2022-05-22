@@ -1,24 +1,30 @@
-# Finding the sum of 'n' numbers using 'while-loop' and 'input' from the user
+# Use of 'while-loop' and 'break' for printing consecutive numbers
 
+# 'break' can't work without 'if condition'
 
-n = int(input('Enter the last term :- '))      # 'int' is for integer conversion of input 'numerical values as string'
+# the break statement, when executed, will terminate the current loop and jump the program to the first line after the loop.
 
-sum = 0
+# 'break' the operation at middle-point while printing all the numbers from 1 up to 8
+
 i = 1
-while i <= n :          # 'n' is the last term of the sequence up to which all the numbers will be added
-    sum = sum + i
-    i = i + 1
-print(sum)
+while i < 8 :
+  print(i)
+
+  if i == 4 :
+   break
+  i = i + 1
 
 
 
+'''
+# Use of 'for-loop' and 'break' for printing consecutive numbers
 
-# Finding the sum of 'n' numbers using 'for-loop' and 'input' from the user
+# 'break' the operation at middle-point while printing all the numbers from 1 up to 8
+
+for i in range (1 , 9) :
+    if i == 5 :
+        break
+    print(i)
+'''
 
 
-n = int(input('Enter the last term :- '))
-
-sum = 0
-for i in range(n+1) :
-    sum = sum + i
-print(sum)

@@ -1,35 +1,14 @@
-# Regular expression : Meta characters
+# 00P : Object Oriented Programming
 
-# ? (question) character : 0 or, 1 time maximum
-
-# Example - (1)
-
-import re
-
-patt = r'ice(-)?cream'                    # Means the previous character remains 0 or, 1 time maximum in the string
-
-if re.match(patt,'icecream') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-# Example - (2)
-
-import re
-
-patt = r'ice(-)?cream'
-
-if re.match(patt,'ice--cream') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
+# METHOD : A function used under a class is called method
 
 
 
+class fahim :                                     # creating class
 
+    def display (self) :                          # creating method       # 'self' is the variable for storing the object 'x'
+        print ('I am under class_fahim')
 
+x = fahim()                                       # creating object
 
-
+x.display()                                       # calling the function / method

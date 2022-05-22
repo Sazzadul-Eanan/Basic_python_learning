@@ -1,12 +1,13 @@
-# if_else_statement
+# Relational operators and boolean data type-
 
-# Remember in 'if else statement' if the 'if-condition' works then 'else' will not work and when 'else-condition' works then 'if' will not work
+     # There are two boolean expressions - 'True' and 'False'
 
-x = 100
-y = 50
+# (Comparison by relational operators gives boolean expressions)
 
-if x > y :         # the condition should be inside the colon sign ( : )
-    print("x")
-
-else :
-    print("y")
+print(30>20)    # greater than
+print(30<20)    # less than
+print(30>=20)   # greater than or equal to (If only one relation is true, the boolean will be true)
+print(30<=20)   # less than or equal to
+print(30==20)   # equal  (Note that, in python a=b means 'b' is stored in 'a')
+print(30!=20)   # not equal
+print("FAHIM"=="FAHIM")

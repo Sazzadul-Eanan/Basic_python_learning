@@ -1,18 +1,22 @@
-# Finding the sum of 'n' numbers using 'while-loop'
+# Use of 'while-loop' for printing consecutive numbers
 
-sum = 0     # Here 'sum' is the variable with whom all the values of 'i' will be added and stored
+'''
+# print all the numbers from 1 to 20
 
-i = 1
-while i <= 5 :       # here  n = 5
-    sum = sum + i    # Define how the variable 'sum' will be working
-    i = i + 1
-print (sum)
+                     # Three compulsory components of a 'while-loop'-
+
+i = 1                # Initialization
+while i <= 20 :      # Conditions
+    print(i)
+    i = i + 1        # Update
+
+# Notice that the 'print()' is typed above the 'update' here, because every times the 'print()' is done with printing a number, the 'update' then again starts working on the next number of the order to be printed; which continues untill the 'condition' is meet.
+'''
 
 
+# Use of 'for-loop' for printing consecutive numbers
 
-# Finding the sum of 'n' numbers using 'for loop'
+# print all the numbers from 1 to 20
 
-sum = 0
-for x in range (6) :
-    sum = sum + x
-print(sum)
+for i in range (1, 21) :
+    print(i)

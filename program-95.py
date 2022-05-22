@@ -1,35 +1,29 @@
-# Regular expression : Meta characters
+# METHOD : A function used under a class is called method
 
-# {and} character : 'x' to 'y' time
+# Using a common method (function) to print all the objects' output
 
-# Example - (1)
+class student_details :
+    roll = ''
+    gpa = ''
+    merit = ''
 
-import re
+                                        # creating the method
+    def print_out (self) :
+        print (f'Roll : {self.roll}, Gpa : {self.gpa}, Merit : {self.merit}')
 
-patt = r'a{1,3}$'                        # Means the only this character (no other character) remains 'x' minimum times to 'y' maximum number of times in the whole string
+rahim = student_details ()
+rahim.roll = 123
+rahim.gpa = 3.78
+rahim.merit = '2nd'
 
-if re.match(patt,'aa') :
+rahim.print_out()                       # calling the function
 
-    print ('Matched')
-else :
-    print('Not Matched')
+himadri = student_details ()
+himadri.roll = 546
+himadri.gpa = 3.94
+himadri.merit = '1st'
 
-
-
-# Example - (2)
-
-import re
-
-patt = r'd{1,2}$'                         # Don't forget to put an end sign ($) at the end
-
-if re.match(patt,'ddd') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
+himadri.print_out()                     # calling the function
 
 
 

@@ -1,10 +1,23 @@
-# Queue.........'FIFO' (first in first out)
+# Counting letters, digits and words from a text
 
-from collections import deque        # call a function for 'queue'
+numberOfdigits = 0
+numberOfletters = 0
+numberOfwords = 0
 
-manline = deque(['Tushar', 'Pobel', 'Ridoy'])       # double bracket for double argument of 'deque' and 'list'
+text = input('Enter a text of numbers :- ')
 
-print(manline)
+for i in text :
 
-manline.popleft()
-print(manline)           # notice 'FIFO' in the output
+    i = i.lower()       # to convert the 'capital letter' as 'small letter'
+    if i >= 'a' and i <= 'z' :
+        numberOfletters = numberOfletters + 1
+
+    elif i >= '0' and i <= '9' :
+        numberOfdigits = numberOfdigits + 1
+
+    elif i == ' ' :      # ' ' means the 'space' between two words
+        numberOfwords = numberOfwords + 1
+
+print('Letters : ',numberOfletters)
+print('Digits : ',numberOfdigits)
+print('Words : ',numberOfwords+1)   # number of words in a sentence is always '1' greater than the number of 'space' in between the words

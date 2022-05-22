@@ -1,9 +1,16 @@
-# Letter grade program
+# Finding the 'biggest number'
 
-# To 'or' logical operator to work, at least one of the conditions from both the sides of 'or' has to be 'true'
+x = 45
+y = 90
+z = 70
 
-marks = 75
+if y < x > z:
+    print(x)
 
-if marks >= 80 or marks <= 100 :
+elif x < y > z:
+    print(y)
 
-   print('A')
+else:
+    print(z)
+
+

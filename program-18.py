@@ -1,8 +1,23 @@
-# Inner_if Or nested_if statement
+# elif statement-
 
+# elif statement commands the program to try another condition if the previous one is not true
 
-if 7>5 :             # if first condition is true then second condition will be checked
+# Remember in 'elif' statement, if any of the conditions above 'elif' works, then rest of the conditions below that 'elif' will not work
 
-    if 7>6 :               # if second condition is true then it goes to the next one...and 'print'
+marks = 65
 
-        print("FAHIM")
+if marks >= 80 :
+    print('A+')
+elif marks >= 70 :
+    print('A')
+elif marks >= 60 :
+    print('A-')
+elif marks >= 50 :
+    print('B')
+elif marks >= 40 :
+    print('C')
+elif marks >= 33 :
+    print('D')
+
+else:
+    print('Fail')

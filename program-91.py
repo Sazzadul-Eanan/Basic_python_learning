@@ -1,35 +1,9 @@
-# Regular expression : Meta characters
+# Opening a .txt file into a python file and write
 
-# ^.....$ character
+# overwrite the existing file
 
-# Example - (1)
-
-import re
-
-patt = r'^American$'                      # Means the initial and the ending pattern needs to be exactly the same
-
-if re.match(patt,'Americana') :           # 'Match()' gives output as boolean
-
-    print ('Matched')
-else :
-    print('Not Matched')
+xy = open('Fahim.txt', 'w')                    # 'w' for 'overwrite
+xy.write('\nSaddam hossen - student of hrm')
 
 
-# Example - (2)
-
-import re
-
-patt = r'^American$'
-
-if re.match(patt,'American') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
-
-
-
-
+     # see changes into the .txt file not in the output

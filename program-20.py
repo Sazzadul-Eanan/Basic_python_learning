@@ -1,12 +1,8 @@
-# Use of 'else condition' in the 'nested_if' statement
+# Inner_if Or nested_if statement
 
 
-if 9>7 :          # as this is a true statement it goes to the next one
+if 7>5 :             # if first condition is true then second condition will be checked
 
-    if 9<3 :            # as this is a false statement it jumps to the 'else condition'
-
-        print("MBAPPE")
-
-    else :
+    if 7>6 :               # if second condition is true then it goes to the next one...and 'print'
 
         print("FAHIM")

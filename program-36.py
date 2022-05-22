@@ -1,43 +1,20 @@
-# Use of some important 'functions' of list
+# Basic difference between 'for' & 'while' loop
 
-list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']
+# Loop over a set of values in a range (of 1 to 5) using both 'for' & 'while' loop
+
+
+i = 1                 # here 'i' is a variable and it needs to have a value  for the 'first iteration' of the while loop
+                      # before the while loop does anything 'the program' needs to already know the first value of count so that it can perform that very first test
+while i <= 5 :        # in a 'while loop' the iteration starts from the value as it is declared in the 'initialization' such as 'i = 1'
+    print(i)          # in 'while loop' number of iterations is not known but, the conditions for stopping is known
+    i = i + 1         # this iteration is used when the number of times we need to repeat the 'block of code' to execute is not known
+
+
 
 '''
-print(len(list1))       # length (number of items) of the list
-'''
-'''
-list1.append("ABU")     # add new item into the 'last position' of the list
-print(list1)
-'''
-'''
-list1 = list1 + ["ABU", "SHUVO"]
-print(list1)
-'''
-'''
-list1.insert(2,"ABU")   # add new item into a very specific position of the list
-print(list1)
-'''
-'''
-list1.remove(500)       # remove a definite item from the list
-print(list1)
-'''
-'''
-list1.pop()             # pop will remove the very last item of the list
-print(list1)
-'''
-'''
-list1.pop(3)            # pop will remove the 'index value' assigned item from the list
-print(list1)
-'''
-'''
-del list1[2]            # to delete the item indexed at '2'
-print(list1)
-'''
-'''
-list1.clear()           # to clear all the items of the list
-print(list1)
-'''
-'''
-x = list1.index('RABBI')   # to get the 'list index' number of an item
-print(x)                   # x is nothing but a variable here
+for i in range(1, 6) :      # in 'for loop' the range-iteration always increase 1 by 1, up to 'n-1' (where n = range)
+    print(i)                # in 'for loop' number of iterations is known
+                            # 'range' is actually a function that generates the range of values to be used as the sequence of the 'for loop'
+                            # No need to define the loop variable first.
+                            # the code is more concise
 '''

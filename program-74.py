@@ -1,14 +1,15 @@
-# Swapping - is the process of exchanging the previously assigned 'values' of two variables among themselves
+# Finding the greater number by 'user defined function'
 
-a = 50
-b = 100
+def greater (x,y) :
+    if x > y :
+        return x
+    else :
+        return y
 
-a, b = b , a           # exchanging the values 'a' to 'b' and 'b' to 'a'
-
-print('a = ', a)
-print('b = ', b)
-
+print(greater(75 , 750))
 
 '''
-print('a =', a  , " " , 'b =', b)
+ans = greater (75 ,750)       # 'ans' is the variable where the answer is returned
+
+print('The greater number is :  ', ans)
 '''

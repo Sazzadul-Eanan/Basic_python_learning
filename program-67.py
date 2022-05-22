@@ -1,16 +1,20 @@
-# Filter function can filter out items, based on some 'conditions' assigned on an iterable
-# Filter function always works with iterable object specially 'list'
-# the condition-unmatched 'items' will be removed
+# Create a function to add 'two' numbers
+
+# main purpose of a 'user defined function' is to reuse it again and again
 
 
-# Create a program for getting 'even' values from a list of numbers
+def add (x,y) :          # x,y are parameters
+    sum = x + y          # The 'function body' defines what the function does
+    print(sum)
+
+add (25,75)              # calling the functions
 
 
-def even (x) :
-   return x % 2 == 0
 
-num = [1, 2, 3, 4, 5, 6]
+# Create a function to subtract 'two' numbers
 
-result = list(filter(even,num))         # 'list()' for relisting the returned values
+def sub (x,y) :
+    sum = x - y
+    print(sum)
 
-print(result)
+sub (100,25)

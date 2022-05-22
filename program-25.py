@@ -1,13 +1,21 @@
-# Letter grade program and 'chaining' of relational operator
+# Use of 'and' logical operator inside 'if statement'
 
-# To 'and' logical operator to work, the conditions of both the sides of 'and' has to be 'true'
+# THE THREE LOGICAL OPERATORS ARE 'and', 'or', 'not'
 
-marks = 85
+# Finding the 'biggest number'
 
-if marks >= 80 and marks <= 100 :
+num1 = 50
+num2 = 30
+num3 = 90
 
-'''
-if 80 <= marks <= 100 :    # The code is alike the upper one. This called the chaining of 'relational operator'
-'''
+if num1 > num2 and num1 > num3 :   # 'and' adds two 'if condition' here, for better understanding see 'program-21' again
+    print(num1)
 
-print('A+')
+elif num2 > num1 and num2 > num3 :
+    print(num2)
+
+else :
+    print(num3)
+
+
+

@@ -1,9 +1,30 @@
-# Opening a .txt file into a python file and write
+# Local and global variable / scope is 'sometimes' all about indentation
 
-# add new 'line' into the existing file
+# x = 'What is the variable ?'              # Global
 
-xy = open('Fahim.txt', 'a')                    # 'a' for append
-xy.write('\nSaddam hossen - student of hrm')
+''''
+def void () :
+    x = 'What is the variable ?'            # local
 
+# x = 'What is the local variable ?'        # Global
 
-     # see changes into the .txt file not in the output
+    print (x)                               # Local printer
+
+# x = 'What is the variable ?'              # Global
+
+void()
+
+print (x)                                   # Global printer
+
+'''
+
+# To use the global variable in 'local-scope' the keyword 'global' is used
+
+def void () :
+    global x
+
+    print (x)
+
+x = 'What is the variable ?'                # Global
+
+void()

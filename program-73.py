@@ -1,9 +1,14 @@
-# Opening a .txt file into a python file and write
+# Return statement in function
 
-# overwrite the existing file
+# The return statement is used inside a function to send the function’s result back to the 'caller code'
+# Return statement can not be used outside the function
+# The statements after the return statement are not executed
 
-xy = open('Fahim.txt', 'w')                    # 'w' for 'overwrite
-xy.write('\nSaddam hossen - student of hrm')
+def add (x,y) :
+    sum = x + y
+    return sum
 
+result = add(23,27)         # caller code
+                            # result is the variable to store the returned sum
 
-     # see changes into the .txt file not in the output
+print(result)

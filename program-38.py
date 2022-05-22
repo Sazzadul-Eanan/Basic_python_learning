@@ -1,21 +1,18 @@
-# Range is a function when use within the list function can generate a 'list' of a range of number
+# Finding the sum of 'n' numbers using 'while-loop'
 
-'''
-x = list(range(10))
+sum = 0     # Here 'sum' is the variable with whom all the values of 'i' will be added and stored
 
-print(x)
-'''
+i = 1
+while i <= 5 :       # here  n = 5
+    sum = sum + i    # Define how the variable 'sum' will be working
+    i = i + 1
+print (sum)
 
-'''
-# For a well defined 'limit' of the range
 
-x = list(range(5, 10))       # 5 is the lower and 10 is the upper limit
 
-print(x)
-'''
+# Finding the sum of 'n' numbers using 'for loop'
 
-# For a well defined 'limit' of the range and 'interval' between the printed numbers
-
-x = list(range(2, 15, 3))     # 2 is the lower limit, 15 is the upper limit and 3 is the 'interval'
-                              # 'range' is not inclusive, means for 'n' upper limit it generates the highest value of 'n-1'
-print(x)
+sum = 0
+for x in range (6) :
+    sum = sum + x
+print(sum)

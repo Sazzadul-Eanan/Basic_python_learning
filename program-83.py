@@ -1,51 +1,19 @@
-# Abstract method : the method which has no statements to execute is called an abstract method
-
-# Abstract class : the class under which there is an abstract method
-
-# There is no chance to create 'objects' for an abstract class directly
-
-# The main purpose of an abstract class is to create a 'model class' that would be used by other hierarchical classes after customization
-
-# Calculating the area of triangle and rectangle under an abstract class
+# Map function takes 2 things simultaneously : a 'function' and a 'list'
+# Map function always works with iterable object specially 'list'
+# It is the functional equivalent of a 'for-loop' applied to an iterable
+# Map applies the defined function to all items in the iterable passed to it
+# Map function gives 'output' as an iterable object
 
 
-from  abc import ABC, abstractmethod                       # importing 'abc' module to implement 'ABC'-abstract base class
-
-class shape (ABC):                                         # creating abstract base class
-    def __init__(self, dim1, dim2) :
-        self.dim1 = dim1
-        self.dim2 = dim2
-    @abstractmethod
-    def area (self) :                                      # abstract method
-        pass
-
-class triangle (shape) :
-    def area (self) :
-        area = 0.5 * self.dim1 * self.dim2
-        print('Area of Triangle : ', area)
-
-class rectangle (shape) :
-    def area (self) :
-        area = self.dim1 * self.dim2
-        print('Area of Rectangle : ', area)
+# Create a program for getting 'squared' values of a list of numbers
 
 
-t1 = triangle(20, 30)
+def square(x) :                       # A function
+    return x*x                        # 'x' is a variable for passing the items of iterable into the function as like as for loop
 
-t1.area()                                                  # Calling the area method of triangle
+num = [1, 2, 3, 4, 5, 6]              # A list / iterable
 
+ans = list(map(square,num))           # Passing the 'function' and the 'iterable' into map()
+                                      # 'list()' for relisting the returned values
 
-r1 = rectangle(20, 30)
-
-r1.area()
-
-
-
-
-# We can prove the formation of 'abstract method' in the 'shape' class by creating object for 'shape' class
-
-sh = shape (40, 60)
-
-sh.area()
-
-# It will give the output as error
+print (ans)

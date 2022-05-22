@@ -1,23 +1,21 @@
-# Counting letters, digits and words from a text
+# Range is a function when use within the list function can generate a 'list' of a range of number
 
-numberOfdigits = 0
-numberOfletters = 0
-numberOfwords = 0
+'''
+x = list(range(10))
 
-text = input('Enter a text of numbers :- ')
+print(x)
+'''
 
-for i in text :
+'''
+# For a well defined 'limit' of the range
 
-    i = i.lower()       # to convert the 'capital letter' as 'small letter'
-    if i >= 'a' and i <= 'z' :
-        numberOfletters = numberOfletters + 1
+x = list(range(5, 10))       # 5 is the lower and 10 is the upper limit
 
-    elif i >= '0' and i <= '9' :
-        numberOfdigits = numberOfdigits + 1
+print(x)
+'''
 
-    elif i == ' ' :      # ' ' means the 'space' between two words
-        numberOfwords = numberOfwords + 1
+# For a well defined 'limit' of the range and 'interval' between the printed numbers
 
-print('Letters : ',numberOfletters)
-print('Digits : ',numberOfdigits)
-print('Words : ',numberOfwords+1)   # number of words in a sentence is always '1' greater than the number of 'space' in between the words
+x = list(range(2, 15, 3))     # 2 is the lower limit, 15 is the upper limit and 3 is the 'interval'
+                              # 'range' is not inclusive, means for 'n' upper limit it generates the highest value of 'n-1'
+print(x)

@@ -1,39 +1,20 @@
-# Regular expression : Character classes []
-
-# Character classes are sets of characters or ranges of characters enclosed by square brackets []
-
-# Character class : Multiple Range
+# Calculating the area of triangle in OOP (using class and method).
 
 
-# Example - (1)
+class triangle :                                         # creating the class
 
-import re
+    def __init__(self, base , height) :                  # input / constructor method
+        self.base = base
+        self.height = height
 
-patt = r'[A-Z][a-z][0-9]'                    # In case of multiple range match checking the string should have the same order of the ranges
+    def calc_area (self) :                               # output method
+        area = 0.5 * self.base * self.height
+        print('Area of the triangle : ', area)
 
-if re.match(patt,'567eghoASDO') :
+triangle_1 = triangle (60 , 80)                          # triangle-1
+triangle_1.calc_area()
 
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
-# Example - (2)
-
-import re
-
-patt = r'[A-Z][a-z][0-9]'
-
-if re.match(patt,'Ar9') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
-
-
+triangle_2 = triangle (30, 40)                           # triangle-2
+triangle_2.calc_area()
 
 

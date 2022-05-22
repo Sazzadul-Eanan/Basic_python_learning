@@ -1,32 +1,9 @@
-# Regular expression : Meta characters
+# Opening a .txt file into a python file and write
 
-# Dot meta character
+# add new 'line' into the existing file
 
-# Example - (1)
-
-import re
-
-patt = r'Banglad..h'                      # Means in the place of two dots there might be only any two characters
-
-if re.match(patt,'Bangladesh') :          # 'Match()' gives output as boolean
-
-    print ('Matched')
-else :
-    print('Not Matched')
+xy = open('Fahim.txt', 'a')                    # 'a' for append
+xy.write('\nSaddam hossen - student of hrm')
 
 
-# Example - (2)
-
-
-import re
-
-patt = r'Banglad.h'
-
-if re.match(patt,'Bangladesh') :
-
-    print ('Matched')
-else :
-    print('Not Matched')
-
-
-
+     # see changes into the .txt file not in the output

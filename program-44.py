@@ -1,17 +1,43 @@
-# Finding all the 'prime' within an interval of number from user input
+# Use of some important 'functions' of list
 
-# First condition is 1 is not a prime so take all the numbers greater than 1
+list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']
 
-# Second condition is the number which is not a 'prime' will be divisible by any number less than it
-
-start = int(input('Enter the starting number :- '))
-end = int(input('Enter the ending number :- '))
-
-for num in range (start , end + 1) :
-    if num > 1 :                              # condition-1
-        for i in range (2, num) :
-            if num % i == 0 :                 # condition-2
-                break
-
-        else :
-            print(num)
+'''
+print(len(list1))       # length (number of items) of the list
+'''
+'''
+list1.append("ABU")     # add new item into the 'last position' of the list
+print(list1)
+'''
+'''
+list1 = list1 + ["ABU", "SHUVO"]
+print(list1)
+'''
+'''
+list1.insert(2,"ABU")   # add new item into a very specific position of the list
+print(list1)
+'''
+'''
+list1.remove(500)       # remove a definite item from the list
+print(list1)
+'''
+'''
+list1.pop()             # pop will remove the very last item of the list
+print(list1)
+'''
+'''
+list1.pop(3)            # pop will remove the 'index value' assigned item from the list
+print(list1)
+'''
+'''
+del list1[2]            # to delete the item indexed at '2'
+print(list1)
+'''
+'''
+list1.clear()           # to clear all the items of the list
+print(list1)
+'''
+'''
+x = list1.index('RABBI')   # to get the 'list index' number of an item
+print(x)                   # x is nothing but a variable here
+'''
