@@ -1,9 +1,9 @@
 # LIST []
 
-# List are mutable
+# List are MUTABLE means ADD and REMOVE elements is possible
 
 
-list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']     # use 'square bracket' while creating list
+list1 = ['ADIL','RABBI',300,'RAIYAZ',500,'NOYON','SAKA']     # USE 'SQUARE BRACKET'
 
 print(list1)            # print the list
 print(list1[0])         # print the first item (list index value starts from '0' in a list) of the list
@@ -13,7 +13,7 @@ print('NOYON' not in list1)
 print(list1 + [800])    # add new item into the last position of the list
 print(list1*2)          # amplify the item's frequency of the list
 
-# list 'index value' for the first entry of the list 'ADIL' is equal to '0', 'RABBI' is equal to '1', '300' is equal to '2'....
+# list 'index value' for the first entry of the list, 'ADIL' is equal to '0', 'RABBI' is equal to '1', '300' is equal to '2'....
 
 
 # Nested Lists

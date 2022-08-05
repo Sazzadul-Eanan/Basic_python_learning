@@ -2,9 +2,9 @@
 
 # TUPLE ( )
 
-# It is not possible to add or remove elements from a Tuple; they are immutable.
+# It is not possible to ADD or REMOVE elements from a Tuple; they are IMMUTABLE.
 
-tup1 = (6, 5, 8, 'plum', 7, 4, 'apple')           # use round bracket
+tup1 = (6, 5, 8, 'plum', 7, 4, 'apple')           # USE 'ROUND BRACKET'
 
 print(tup1[2])               # accessing the elements of a Tuple using index value
 

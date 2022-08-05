@@ -1,6 +1,6 @@
 # Use of 'ternary operator' to find the greatest number among two numbers
 
-# First, see program-14 again
+# First, see program-15 again
 
 num1 = 100
 num2 = 50
