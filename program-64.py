@@ -1,8 +1,8 @@
 # Queue.........'FIFO' (first in first out)
 
-from collections import deque        # call a function for 'queue'
+from collections import deque         # call a function for 'queue'
 
-manline = deque(['Tushar', 'Pobel', 'Ridoy'])       # double bracket for double argument of 'deque' and 'list'
+manline = deque(['Tushar', 'Pobel', 'Ridoy'])       # DOUBLE bracket for TWO different arguments of 'deque' and 'list'
 
 print(manline)
 

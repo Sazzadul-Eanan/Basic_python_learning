@@ -2,11 +2,11 @@
 
 # a collection of item in python, where the data are stored as value of a specific 'key'
 # the value can only be accessed by the 'key'
-# mutable and indexed
+# MUTABLE and indexed
 # the keys must be unique but the values do not need to be unique
 
 
-studentID = {               # use 'curly' bracket
+studentID = {               # USE 'CURLY BRACKET'
     101 : 'Dhoni',          # 101 = key     # Dhoni = value
     102 : 'Yuvraj',
     103 : 'Shehwag'

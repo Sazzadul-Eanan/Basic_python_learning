@@ -1,10 +1,10 @@
 # Set { }
 
-# set are immutable
-# set is an unordered(un-indexed) collection of item
+# set is IMMUTABLE
+# set is an unordered(UN-INDEXED) collection of item
 # items of set can not be accessed with 'index' value
-# duplicate value is not allowed
-# can be created with 'curly' bracket or 'set' function
+# DUPLICATE value is not allowed
+# can be created with 'CURLY BRACKET' or 'set' function
 
 
 s1 = {1, 2, 3, 4}

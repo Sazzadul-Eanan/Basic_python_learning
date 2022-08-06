@@ -5,6 +5,8 @@ books = []
 books.append('Read')      # push item into the stack
 books.append('Write')
 books.append('Speak')
+books.append('Listen')
+
 print(books)
 print('Pushing items into the stack is done.')
 
