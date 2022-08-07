@@ -1,5 +1,5 @@
 # XX-arguments / Key word arguments
-# this argument gives output as 'dictionary' and can print both the 'key' and the 'value'
+# this argument gives output as 'DICTIONARY' and can print both the 'KEY' and the 'VALUE'
 
 def student(**details) :       # double asterisks symbol
     print(details)

@@ -9,6 +9,8 @@ def add (x,y) :          # x,y are parameters
 
 add (25,75)              # calling the functions
 
+add (225,675)
+
 
 
 # Create a function to subtract 'two' numbers
@@ -18,3 +20,5 @@ def sub (x,y) :
     print(sum)
 
 sub (100,25)
+
+sub (776,12)
