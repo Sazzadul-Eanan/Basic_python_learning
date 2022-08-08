@@ -7,7 +7,7 @@
 
 
 '''
-# list comprehension of a 'map function' code (see again) program-66
+# list comprehension of a 'map function' code (see again) program-83
 
 num = [1, 2, 3, 4, 5, 6]
 result = [x*x for x in num]
@@ -15,7 +15,7 @@ print(result)
 
 '''
 
-# list comprehension of a 'filter function' code (see again) program-67
+# list comprehension of a 'filter function' code (see again) program-85
 
 num = [1, 2, 3, 4, 5, 6]
 result = [x for x in num if x % 2 == 0]

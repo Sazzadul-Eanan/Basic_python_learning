@@ -1,8 +1,8 @@
 # Map function takes 2 things simultaneously : a 'function' and a 'list'
-# Map function always works with iterable object specially 'list'
-# It is the functional equivalent of a 'for-loop' applied to an iterable
+# Map function always works with ITERABLE object specially 'list'
+# It is the FUNCTIONAL EQUIVALENT of a 'for-loop' applied to an iterable
 # Map applies the defined function to all items in the iterable passed to it
-# Map function gives 'output' as an iterable object
+# Map function gives 'OUTPUT' as an iterable object
 
 
 # Create a program for getting 'squared' values of a list of numbers

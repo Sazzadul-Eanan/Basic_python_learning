@@ -1,4 +1,4 @@
-# Filter function can filter out items, based on some 'conditions' assigned on an iterable
+# Filter function can FILTER OUT items, based on some 'conditions' assigned on an iterable
 # Filter function always works with iterable object specially 'list'
 # the condition-unmatched 'items' will be removed
 

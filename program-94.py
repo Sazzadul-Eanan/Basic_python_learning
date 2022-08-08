@@ -1,6 +1,6 @@
 # 00P : Object Oriented Programming
 
-# METHOD : A function used under a class is called method
+# METHOD : A FUNCTION used under a class is called method
 
 
 

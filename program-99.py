@@ -1,6 +1,6 @@
 # Inheritance : is the process through which 'some existing methods' of a class is brought into another class
 
-# Main purpose of 'inheritance' is to re-use the existing methods of a class into another class
+# Main purpose of 'inheritance' is to RE-USE THE EXISTING METHODS of a class into another class
 
 
 class phone :                                     # parent class / super class / base class

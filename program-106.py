@@ -1,6 +1,6 @@
-# Magic Methods : in Python are the special methods that start and end with the 'double underscores'
+# Magic Methods : in Python are the special methods that START and END with the 'double underscores'
 # Also known as Dunder Methods
-# Magic methods are not invoked directly, but the invocation happens internally from the class on a certain action
+# Magic methods are not invoked DIRECTLY, but the invocation happens INTERNALLY from the class on a certain action
 
 # __init__()  To get an object automatically being called by a method without the relevant method being explicitly called by the object
 

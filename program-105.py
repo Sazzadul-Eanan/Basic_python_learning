@@ -1,6 +1,6 @@
 # Polymorphism : when a function has different types of usability depending on its use then this is called polymorphism of that fuction
 
-# Polymorphic function is of two kind : built-in polymorphic function and user-defined polymorphic function
+# Polymorphic function is of TWO kind : Built-in polymorphic function and User-defined polymorphic function
 
 
 

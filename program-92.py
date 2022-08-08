@@ -3,7 +3,7 @@
 a = 50
 b = 100
 
-a, b = b , a           # exchanging the values 'a' to 'b' and 'b' to 'a'
+a, b = b , a           # exchanging the values of 'a' to 'b' and 'b' to 'a'
 
 print('a = ', a)
 print('b = ', b)

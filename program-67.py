@@ -1,6 +1,6 @@
 # Create a function to add 'two' numbers
 
-# main purpose of a 'user defined function' is to reuse it again and again
+# main PURPOSE of a 'user defined function' is to REUSE it again and again
 
 
 def add (x,y) :          # x,y are parameters

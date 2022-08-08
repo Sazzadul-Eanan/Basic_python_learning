@@ -1,8 +1,8 @@
 # 00P : Object Oriented Programming
 
-# Inside a class there remain method and object
+# Inside a CLASS there remain METHOD and OBJECT
 
-# Object is also known as instance
+# OBJECT is also known as INSTANCE
 
 
 class student_details :                    # Creating a class                # 'Student_details' is the name of the class
@@ -25,7 +25,7 @@ print (f'Roll : {Shafiq.roll}, Gpa : {Shafiq.gpa}, Standing : {Shafiq.standing}'
 
 
 
-# To understand the f'' see program-12 again
+# To understand the f'' see program-13 again
 
 
 

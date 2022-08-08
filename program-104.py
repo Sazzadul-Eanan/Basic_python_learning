@@ -4,7 +4,7 @@
 
 # There is no chance to create 'objects' for an abstract class directly
 
-# The main purpose of an abstract class is to create a 'model class' that would be used by other hierarchical classes after customization
+# The MAIN PURPOSE of an abstract class is to create a 'model class' that would be used by other hierarchical classes after customization
 
 # Calculating the area of triangle and rectangle under an abstract class
 
