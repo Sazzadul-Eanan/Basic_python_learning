@@ -1,14 +1,14 @@
 # Regular expression : Meta characters
 
-# ? (question) character : 0 or, 1 time maximum
+# + (plus) character : 1 or, more
 
 # Example - (1)
 
 import re
 
-patt = r'ice(-)?cream'                    # Means the previous character remains 0 or, 1 time maximum in the string
+patt = r'A+'                          # Means the character remains 1 time or more in the string
 
-if re.match(patt,'icecream') :
+if re.match(patt,'Chinese') :
 
     print ('Matched')
 else :
@@ -19,9 +19,9 @@ else :
 
 import re
 
-patt = r'ice(-)?cream'
+patt = r'A+'
 
-if re.match(patt,'ice--cream') :
+if re.match(patt,'Arctic') :
 
     print ('Matched')
 else :

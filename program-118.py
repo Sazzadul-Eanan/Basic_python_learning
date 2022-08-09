@@ -2,16 +2,15 @@
 
 # Character classes are sets of characters or ranges of characters enclosed by square brackets []
 
-# Character class : Range
 
 
 # Example - (1)
 
 import re
 
-patt = r'[a-z]'                          # Means if there is any match in the string for the range
+patt = r'[aeiou]'                            # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
 
-if re.match(patt,'eghok') :
+if re.match(patt,'eghoklaeioumntpwi') :
 
     print ('Matched')
 else :
@@ -23,9 +22,9 @@ else :
 
 import re
 
-patt = r'[0-9]'
+patt = r'[aeiou]'                             # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
 
-if re.match(patt,'gioumtpw') :
+if re.match(patt,'geiouhghoklaeioumntpw') :
 
     print ('Matched')
 else :

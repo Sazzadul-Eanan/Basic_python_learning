@@ -1,34 +1,48 @@
-# Regular Expression : sub()
+# Regular Expression :
 
-# The 'sub()' can search an existing substring / pattern and replace it with a new one from the text
-
-# 3 parameters can be passed within the function : sub (pattern_looking_for, pattern_replacement, pattern_from_the_text)
-
-
+# Finding some words end with a specific substring in the end
 
 import re
 
-pattern_searching = r'cricket'
+des = "afganistan, america, bangladesh, canada, denmark, england, greenland, iceland, netherlands, new zealand, sweden, switzerland"
+lis = re.findall(r'(\w+lands*)',des)          # \w+ means one or, more letter and s* means 0 s or, 1 s
 
-text = 'My favourite game is cricket, I love to play cricket'
+print(lis)
 
-edited_text = re.sub(pattern_searching, 'football', text)
+# Use of Regex flag
 
-print(edited_text)
+g = "bangla, english, german"
+u = re.findall(r'GERMAN', g, re.IGNORECASE)          # In short form use re.I
+
+print(u)                                             # This is called flag
+
+k = 'Bangladesh is our homeland'
+match = re.search('B\w+h',k)                  # looking for bangladesh word
+#match = re.search('B.+?h',k)
+l = match.group()
+
+print(l)
+
+match = re.search('desh', 'bangladesh')       # re.search() has two arguments. the first one is what we are looking for ('desh'),
+x = match.group()                             # and the second one is where to look for ('bangladesh')
+
+print(x)
 
 
-'''
+# Regex starts to look for something from the left-side of the string
 
-# An additional parameter can be passed to replace a recurrent pattern for 'x' times
+s = 'Helsinki'
+match = re.search('.',s)          # the dot symbol (.) means what ever the first letter is from the left
+y = match.group()
 
-import re
+print(y)
 
-pattern_searching = r'cricket'
+match = re.search('..',s)
+z = match.group()
 
-text = 'My favourite game is cricket, I love to play cricket'
+print(z)
 
-edited_text = re.sub(pattern_searching, 'football', text, count=1)        # Replace the pattern in its first count only  
+match = re.search('H...i',s)
+w = match.group()
 
-print(edited_text)
-
-'''
+print(w)

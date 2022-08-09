@@ -2,16 +2,16 @@
 
 # Character classes are sets of characters or ranges of characters enclosed by square brackets []
 
-# Character class : Multiple Range
+# Character class : Range
 
 
 # Example - (1)
 
 import re
 
-patt = r'[A-Z][a-z][0-9]'                    # In case of multiple range match checking the string should have the same order of the ranges
+patt = r'[a-z]'                          # Means if there is any match in the string for the range
 
-if re.match(patt,'567eghoASDO') :
+if re.match(patt,'eghok') :
 
     print ('Matched')
 else :
@@ -23,9 +23,9 @@ else :
 
 import re
 
-patt = r'[A-Z][a-z][0-9]'
+patt = r'[0-9]'
 
-if re.match(patt,'Ar9') :
+if re.match(patt,'gioumtpw') :
 
     print ('Matched')
 else :

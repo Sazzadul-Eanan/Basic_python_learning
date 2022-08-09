@@ -1,28 +1,27 @@
 # Regular expression : Meta characters
 
-# {and} character : 'x' to 'y' time
+# ? (question) character : 0 or, 1 time maximum
 
 # Example - (1)
 
 import re
 
-patt = r'a{1,3}$'                        # Means that only this character (no other character) remains 'x' minimum times to 'y' maximum number of times in the whole string
+patt = r'ice(-)?cream'                    # Means the previous character remains 0 or, 1 time maximum in the string
 
-if re.match(patt,'aa') :
+if re.match(patt,'icecream') :
 
     print ('Matched')
 else :
     print('Not Matched')
 
 
-
 # Example - (2)
 
 import re
 
-patt = r'd{1,2}$'                         # Don't forget to put an end sign ($) at the end
+patt = r'ice(-)?cream'
 
-if re.match(patt,'ddd') :
+if re.match(patt,'ice--cream') :
 
     print ('Matched')
 else :

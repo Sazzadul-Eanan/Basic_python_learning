@@ -1,29 +1,35 @@
 # Regular expression : Meta characters
 
-# * (asterisk) character : 0 or, more
+# ^.....$ character      ( ^ is called 'caret' symbol and $ is called 'dollar' symbol)
 
-
+# Example - (1)
 
 import re
 
-patt = r'A*'                            # Means the character remains 0 times or more in the string
+patt = r'^American$'                      # Means the pattern within the INITIAL (^) to the END ($) needs to be exactly the same
 
-if re.match(patt,'American') :          # 'Match()' gives output as boolean
+if re.match(patt,'Americanos') :          # 'Match()' gives output as boolean
 
     print ('Matched')
 else :
     print('Not Matched')
-
 
 
 # Example - (2)
 
 import re
 
-patt = r'A*'
+patt = r'^American$'
 
-if re.match(patt,'morocco') :
+if re.match(patt,'American') :
 
     print ('Matched')
 else :
     print('Not Matched')
+
+
+
+
+
+
+

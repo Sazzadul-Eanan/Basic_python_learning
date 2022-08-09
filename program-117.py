@@ -1,16 +1,14 @@
-# Regular expression : Character classes []
+# Regular expression : Meta characters
 
-# Character classes are sets of characters or ranges of characters enclosed by square brackets []
-
-
+# {and} character : 'x' to 'y' time
 
 # Example - (1)
 
 import re
 
-patt = r'[aeiou]'                            # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
+patt = r'a{1,3}$'                        # Means that only this character (no other character) remains 'x' minimum times to 'y' maximum number of times in the whole string
 
-if re.match(patt,'eghoklaeioumntpwi') :
+if re.match(patt,'aa') :
 
     print ('Matched')
 else :
@@ -22,9 +20,9 @@ else :
 
 import re
 
-patt = r'[aeiou]'                             # Means if there is any match in the beginning of the string for any of the substring from the list [aeiou]
+patt = r'd{1,2}$'                         # Don't forget to put an end sign ($) at the end
 
-if re.match(patt,'geiouhghoklaeioumntpw') :
+if re.match(patt,'ddd') :
 
     print ('Matched')
 else :

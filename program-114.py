@@ -1,35 +1,29 @@
 # Regular expression : Meta characters
 
-# + (plus) character : 1 or, more
+# * (asterisk) character : 0 or, more
 
-# Example - (1)
+
 
 import re
 
-patt = r'A+'                          # Means the character remains 1 time or more in the string
+patt = r'A*'                            # Means the character remains 0 times or more in the string
 
-if re.match(patt,'Chinese') :
+if re.match(patt,'American') :          # 'Match()' gives output as boolean
 
     print ('Matched')
 else :
     print('Not Matched')
+
 
 
 # Example - (2)
 
 import re
 
-patt = r'A+'
+patt = r'A*'
 
-if re.match(patt,'Arctic') :
+if re.match(patt,'morocco') :
 
     print ('Matched')
 else :
     print('Not Matched')
-
-
-
-
-
-
-

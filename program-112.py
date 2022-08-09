@@ -1,14 +1,14 @@
 # Regular expression : Meta characters
 
-# ^.....$ character      ( ^ is called 'caret' symbol and $ is called 'dollar' symbol)
+# Dot meta character
 
 # Example - (1)
 
 import re
 
-patt = r'^American$'                      # Means the pattern within the INITIAL (^) to the END ($) needs to be exactly the same
+patt = r'Banglad..h'                      # Means in the place of two dots there might be only any two characters
 
-if re.match(patt,'Americanos') :          # 'Match()' gives output as boolean
+if re.match(patt,'Bangladesh') :          # 'Match()' gives output as boolean
 
     print ('Matched')
 else :
@@ -17,19 +17,16 @@ else :
 
 # Example - (2)
 
+
 import re
 
-patt = r'^American$'
+patt = r'Banglad.h'
 
-if re.match(patt,'American') :
+if re.match(patt,'Bangladesh') :
 
     print ('Matched')
 else :
     print('Not Matched')
-
-
-
-
 
 
 
