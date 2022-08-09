@@ -4,8 +4,8 @@
 
 import re
 
-des = "afganistan, america, bangladesh, canada, denmark, england, greenland, iceland, netherlands, new zealand, sweden, switzerland"
-lis = re.findall(r'(\w+lands*)',des)          # \w+ means one or, more letter and s* means 0 s or, 1 s
+des = "afganistan, america, bangladesh, canada, denmark, england, greenland, iceland, netherlands, swazeland, sweden, switzerland"
+lis = re.findall(r'(\w+lands*)',des)                 # \w+ means one or, more letter and s* means 0 s or, 1 s
 
 print(lis)
 
@@ -13,11 +13,11 @@ print(lis)
 
 g = "bangla, english, german"
 u = re.findall(r'GERMAN', g, re.IGNORECASE)          # In short form use re.I
-
-print(u)                                             # This is called flag
+                                                     # This is called flag
+print(u)
 
 k = 'Bangladesh is our homeland'
-match = re.search('B\w+h',k)                  # looking for bangladesh word
+match = re.search('B\w+h',k)                  # looking for 'Bangladesh' word
 #match = re.search('B.+?h',k)
 l = match.group()
 
@@ -32,7 +32,7 @@ print(x)
 # Regex starts to look for something from the left-side of the string
 
 s = 'Helsinki'
-match = re.search('.',s)          # the dot symbol (.) means what ever the first letter is from the left
+match = re.search('.',s)                      # the dot symbol (.) means what ever the first letter is from the left
 y = match.group()
 
 print(y)
