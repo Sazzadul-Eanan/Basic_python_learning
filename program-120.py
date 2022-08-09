@@ -47,7 +47,7 @@ tex = "here is some numbers : 01756 234567, 00000456783, 01967 121345, 098756235
 result = re.findall(r'01[879]\d{2}\s*\d{6}',tex)
 print(result)
 
-#
+# Use of Regex flag
 
 g = "banla, english, german"
 u = re.findall(r'GERMAN', g, re.IGNORECASE)          # In short form use re.I
