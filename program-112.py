@@ -1,14 +1,14 @@
 # Regular expression : Meta characters
 
-# ^.....$ character
+# ^.....$ character      ( ^ is called 'caret' symbol and $ is called 'dollar' symbol)
 
 # Example - (1)
 
 import re
 
-patt = r'^American$'                      # Means the initial and the ending pattern needs to be exactly the same
+patt = r'^American$'                      # Means the pattern within the INITIAL (^) to the END ($) needs to be exactly the same
 
-if re.match(patt,'Americana') :           # 'Match()' gives output as boolean
+if re.match(patt,'Americanos') :          # 'Match()' gives output as boolean
 
     print ('Matched')
 else :

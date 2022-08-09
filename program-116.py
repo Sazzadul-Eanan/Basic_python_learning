@@ -6,7 +6,7 @@
 
 import re
 
-patt = r'a{1,3}$'                        # Means the only this character (no other character) remains 'x' minimum times to 'y' maximum number of times in the whole string
+patt = r'a{1,3}$'                        # Means that only this character (no other character) remains 'x' minimum times to 'y' maximum number of times in the whole string
 
 if re.match(patt,'aa') :
 

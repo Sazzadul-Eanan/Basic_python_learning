@@ -1,10 +1,10 @@
 # Regular Expressions (regex) are used to match and extract any string related pattern from the strings of text such as particular word, or patterns of character
 
-# Regex are tools for manipulating strings
+# Regex are tools for processing and manipulating text or, strings
 
-# The most common use of regex is form validation, i.e. email validation, password validation, phone number validation etc.
+# The most common use of regex is FORM VALIDATION, i.e. email validation, password validation, phone number validation etc.
 
-# Some most used functions of 're' module are - match(), search(), findall()
+# Some most used functions of 're' (Regex) module are - match(), search(), findall()
 
 
 
@@ -13,7 +13,7 @@
 
 import re                    # importing the 're' module
 
-pattern = r'colour'          # r' ' means that the string is to be treated as a raw string, which means all escape codes will be ignored
+pattern = r'colour'          # r' ' means that the string is to be treated as a RAW STRING, which means all escape codes will be ignored
 
 if re.match(pattern, 'Red is the colour from my favourite colour') :
     print('Matched')
