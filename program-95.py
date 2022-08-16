@@ -7,7 +7,7 @@ class student_details :
     gpa = ''
     merit = ''
 
-                                        # creating the method
+                              # creating the method (indentation matters as it must be inside the class)
     def print_out (self) :
         print (f'Roll : {self.roll}, Gpa : {self.gpa}, Merit : {self.merit}')
 
@@ -16,14 +16,14 @@ rahim.roll = 123
 rahim.gpa = 3.78
 rahim.merit = '2nd'
 
-rahim.print_out()                       # calling the function
+rahim.print_out()             # calling the function
 
 himadri = student_details ()
 himadri.roll = 546
 himadri.gpa = 3.94
 himadri.merit = '1st'
 
-himadri.print_out()                     # calling the function
+himadri.print_out()           # calling the function
 
 
 
